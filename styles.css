@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+* {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+
+
+.home-back {
+    background-image: url('./images/cs.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+} 
+.custom-but:hover {
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+  }
+/*Navabr*/
+.navbar{
+    background:black ;
+
+}
+/*rgba(0, 0, 0, 0.5)*/
+.navbar-nav{
+    margin-left: auto;
+    margin-right: 30px;
+}
+.navbar-nav li{
+    font-size: 31px;
+}
+.navbar-brand{
+    font-size: 40px;
+}
+.navbar-item{
+    padding-left: 10px;
+}
+a{
+    text-decoration: none;
+}
+
+.dropdown .btn-outline-light {
+  border: 1px solid #cde118;
+  color: #c3d91f;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dropdown .btn-outline-light:hover {
+  background-color: #cea427;
+  color: #5d3c0a;
+}
+
+.dropdown-menu {
+  min-width: 150px;
+}
+/*Home*/
+
+/*About us*/
+#about-us {
+    position: relative;
+    height: 100vh; 
+    overflow: hidden; 
+  }
+
+  #video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; 
+  }
+  
+  #about-us .container {
+    position: relative;
+    z-index: 1; 
+    color: white;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  #about-us h1 {
+    font-size: 4rem;
+    color: white;
+  }
+  #about-us h2 {
+    font-size: 3rem;
+  }
+  
+  
+  #about-us p {
+    font-size: 1.3rem;
+    color: white; 
+  }
+
+  
+  
+/*Games*/
+.games-back{
+    background-image: url('./images/box-back2.jpg');
+}
+
+
+.cus-icon{
+    color: rgb(218, 218, 63);
+}
+.game-img {
+    width: 175px; 
+    height: 120px; 
+    object-fit: cover; 
+    border-radius: 10px; 
+}
+.card-hov:hover {
+    transform: scale(1.1);
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1);
+  }
+.card{
+    position: relative; 
+    overflow: hidden;
+    border-radius: 10px;
+}
+.card-hov:hover img{
+    transform: scale(1.05);
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1);
+    overflow: hidden;
+}
+.card-hov{
+    margin-bottom: 10px;
+}
+/*Members*/
+.members-back{
+    background-image: url('./images/member-back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.head-member{
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+.reviews-container{
+    padding: 100px 50px;
+    background-color:rgba(0, 0, 0, 0.5);
+    color: white;
+}
+.members-heading{
+    font-size: 50px;
+}
+.active-members-pointer{
+    cursor: pointer;
+}
+.active-members-pointer:hover{
+    transform: scale(1.1);
+    transition: all 0.3s cubic-bezier(0.42, 0, 0.58, 1);
+}
+.members-card-back{
+    background-color:rgba(0, 0, 0, 0.5);
+}
+.glow-box {
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+
+    background: linear-gradient(145deg, #001a33, #003366);
+    color: #fff;
+
+    box-shadow: 0 0 15px #0066cc, 0 0 25px #003366, 0 0 35px #001a66;
+    transition: all 0.3s ease-in-out;
+}
+.glow-box:hover {
+    box-shadow: 0 0 20px #0066ff, 0 0 30px #3399ff, 0 0 45px #003399;
+    transform: scale(1.02);
+}
+
+/* Pricing page */
+#pricing-page {
+    position: relative;  
+    overflow: hidden;  
+  }
+  #pricing-page p {
+    font-size: 30px;
+  }
+  
+  #video-background2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;  
+  }
+  
+ 
+  .card {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .card-header {
+    padding: 20px;
+    font-size: 1.5rem;
+  }
+  
+  .card-body h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .list-group-item {
+    font-size: 1.1rem;
+    border: none;
+    padding: 10px 15px;
+  }
+  
+  .btn-block {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2rem;
+    border-radius: 50px;
+  }
+  
+  
+
+/*Contact page*/
+#contact-page {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+#contact-page h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+#contact-page form {
+  background: linear-gradient(145deg, #001a33, #003366);
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contact-page .btn-block {
+  width: 100%;
+}
+
+#contact-page ul {
+  padding: 0;
+  list-style: none;
+}
+
+#contact-page ul li {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+#contact-page ul li i {
+  margin-right: 10px;
+}
+
+#contact-page iframe {
+  border: none;
+  border-radius: 8px;
+}
+#contact-page {
+  background: url('./images/contact-back.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*map  */
+.map-frame {
+  width: 100%; 
+  height: 350px; 
+  border: 0; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+/*Footer*/
+footer {
+  background-color: #2c2c2c;
+  color: #d3d3d3;
+}
+
+footer h5 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #d3d3d3;
+}
+
+footer a:hover {
+  color: #007bff;
+}
+
+footer .social-icons a {
+  font-size: 18px;
+  margin-right: 10px;
+  transition: color 0.3s;
+}
+
+footer .social-icons a:hover {
+  color: #007bff;
+}
+
+footer .text-center p {
+  margin: 0;
+  font-size: 14px;
+  color: #a1a1a1;
+}

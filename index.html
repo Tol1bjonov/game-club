@@ -1,0 +1,1539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anfield Arena</title>
+    <script src="app.js"></script>
+    <link rel="icon" href="./images/main-logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css"> <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!--Navbar-->
+   <div class="home-back">
+      <div class="container ">
+        <nav class="navbar navbar-expand-lg mb-4  d-flex sticky-top"><!--bg-dark-->
+          <div class="container-fluid">
+            <a class="navbar-brand text-white " href="#">
+              <img src="./images/main-logo.png" alt="Logo" width="60" height="50" class="d-inline-block align-text-center">
+              Anfield Arena
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ">
+                  <li class="navbar-item">
+                      <a href="#home" class="active nav-link text-warning custom-but" aria-current="page">Home</a>
+                  </li>
+                  <li class="navbar-item">
+                      <a href="#about-us" class="text-warning nav-link custom-but" >About us</a>
+                  </li>
+                  <li class="navbar-item">
+                      <a href="#games" class="text-warning nav-link custom-but">Games</a>
+                  </li>
+                  <li class="navbar-item">
+                      <a href="#members" class="text-warning nav-link custom-but">Members</a>
+                  </li>
+                  <li class="navbar-item">
+                      <a href="#pricing-page" class="text-warning nav-link custom-but">Pricing</a>
+                  </li>
+                  <li class="navbar-item">
+                      <a href="#contact-page" class="text-warning nav-link custom-but">Contact us</a>
+                  </li>
+                  <div class="dropdown">
+                    <button class="btn btn-outline-light dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                      Language
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
+                      <li><a class="dropdown-item" href="indexuz.html" onclick="changeLanguage('en')">Uzbek</a></li>
+                    </ul>
+                  </div>
+              </ul>
+            </div>
+          </div>
+        </nav>
+  </div>
+  <!--/Navbar-->
+
+  <!--Home-->
+  <div class="container">
+      
+  </div>
+  <div class="container " id="home">
+    
+      <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          </div>
+          <div class="carousel-inner">
+            
+            <div class="carousel-item active img-fluid">
+              
+              <img src="./images/cs_logo.jpg" class="d-block w-100 img-fluid " alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h2>Counter Strike 2</h2>
+                <p>Counter-Strike 2 brings a new era of tactical gameplay with enhanced graphics, responsive smokes, and upgraded maps for an immersive experience.</p>
+                <button class="btn btn-success custom-but" onclick="window.open('https://www.counter-strike.net', '_blank');">Play Now</button>
+
+              </div>
+              
+            </div>
+
+            <div class="carousel-item img-fluid">
+              <video class="d-block w-100 img-fluid" autoplay loop muted>
+                  <source src="./images/cs_vedio.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+              </video>
+              <div class="carousel-caption d-none d-md-block">
+                  <h3>Counter-Strike 2</h3>
+              </div>
+            </div>
+          
+          <div class="carousel-item img-fluid">
+            <img src="./images/dota_logo.jpg" class="d-block w-100 img-fluid" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Dota</h2>
+              <p>Dota 2 is a legendary multiplayer online battle arena (MOBA) game, blending strategy, teamwork, and skill in epic battles.</p>
+              <button class="btn btn-success custom-but" onclick="window.open('https://www.dota2.com/home', '_blank');">Play Now</button>
+
+              
+            </div>
+          </div>
+
+          <div class="carousel-item img-fluid">
+            <video class="d-block w-100 img-fluid" autoplay loop muted>
+                <source src="./images/dota_vedio.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="carousel-caption d-none d-md-block">
+                <h3>Dota 2</h3>
+            </div>
+          </div>
+
+            <div class="carousel-item img-fluid">
+              <img src="./images/gta_logo.png" class="d-block w-100 img-fluid" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h2>GTA 5</h2>
+                <p>GTA 5 offers an expansive open-world experience, blending action, storytelling, and endless opportunities for adventure and chaos.</p>
+                <button class="btn btn-success custom-but" onclick="window.open('https://gta5rp.com/?utm_source=google&utm_medium=cpc&utm_campaign=google_search_manual_CIS&utm_content=721080593456&utm_term=grand%20theft%20auto%20v&gad_source=1&gclid=Cj0KCQiAu8W6BhC-ARIsACEQoDDykbB9T11sbzQAp4rU8o8qGkVrRTZ54aB35CDmiJgkU2A0m0akwI0aAmBQEALw_wcB', '_blank');">Play Now</button>
+                
+
+              </div>
+            </div>
+
+            <div class="carousel-item img-fluid">
+              <video class="d-block w-100 img-fluid" autoplay loop muted>
+                  <source src="./images/gta_vedio.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+              </video>
+              <div class="carousel-caption d-none d-md-block">
+                  <h3>GTA 5</h3>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+  </div>
+</div>
+
+<!-- About us -->
+<div id="about-us">
+  <video id="video-background" autoplay loop muted>
+    <source src="./images/game_room_vedio.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1 class="text-center ">About us</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-4 ">
+        <h2>Who we are</h2>
+        <p>Welcome to Anfield Arena, where passion meets creativity. We are a team of dedicated professionals, gamers, and tech enthusiasts committed to providing top-notch experiences for our community.</p>
+      </div>
+      <div class="col-12 col-md-4  ">
+        <h2>Our mission</h2>
+        <p>Our mission is to create an immersive and inclusive space where passion for gaming, technology, and creativity thrives. We aim to be more than just a gaming lounge – a hub where ideas are born, bonds are strengthened, and memories are made.</p>
+      </div>
+      <div class="col-12 col-md-4 d-none d-md-block ">
+        <h2>Our vision</h2>
+        <p>To be the ultimate destination for gaming enthusiasts, where technology, entertainment, and community come together. We aspire to redefine what it means to game, ensuring every player feels valued and inspired.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- About us -->
+
+
+<!--Games-->
+ <div class="games-back">
+  <div class="container" id="games">
+    <div class="row">
+      <div class="col">
+        <h1 class="text-center mt-5 text-white">Games</h1>
+      </div>
+    </div>
+
+    <!-- Search Bar -->
+    <div class="container mt-3 mb-3">
+      <div class="row justify-content-center">
+          <div class="col-8  col-md-6 ">
+              <div class="input-group">
+                  <input type="text" id="searchInput" class="form-control" placeholder="Search for games" aria-label="Search" onkeyup="searchFunction()">
+                  <button class="btn btn-primary" type="button"><i class="bi bi-search"></i></button>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="row text-white justify-content-start">
+      <div class="col-12  col-md-3 ">
+        <h1>Popular</h1>
+      </div>
+      <div class="col-12 col-md-3 ">
+        <div class="dropdown">
+  <button class="btn btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Game Info
+  </button>
+  <ul class="dropdown-menu">
+    <li><button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+      COUNTER STRIKE
+    </button></li>
+    <li><button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#dota2">
+      Dota 2
+    </button></li>
+    <li><button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#volarant">
+      Valorant
+    </button></li>
+    <li><button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#thesims">
+      The Sims 4
+    </button></li>
+    <li><button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#overwatch">
+      Overwatch 2
+    </button></li>
+    <li><button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#cyberpunk">
+      Cyberpunk 2077
+    </button></li>
+    <li><button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#thetwitcher">
+      The Twitcher 3
+    </button></li>
+    <li><button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#eldenring">
+      Elden Ring
+    </button></li>
+    <li><button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#subnautica">
+      Subnautica
+    </button></li>
+    <li><button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#lifeisstrange">
+      Life is strange
+    </button></li>
+    <li><button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#discoelsyium">
+      Disco Elsyium
+    </button></li>
+    <li><button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#sekiro">
+      Sekiro
+    </button></li>
+    <li><button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#fifa23">
+      FIFA 23
+    </button></li>
+    <li><button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#footballmanager">
+      Football Manager
+    </button></li>
+    <li><button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#pes">
+      PES(eFootball)
+    </button></li>
+    <li><button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#nba">
+      NBA 2K24
+    </button></li>
+    <li><button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#riders">
+      Riders Republic
+    </button></li>
+    <li><button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#steep">
+      Steep
+    </button></li>
+  </ul>
+</div>
+      </div>
+    </div>
+
+<!-- O'yin kartalari -->
+<div class="row mb-5 mt-5 ">
+  <!-- Counter Strike -->
+  <div class="col-6 col-sm-4 col-md-3 col-lg-2 game-card">
+      <div class="card card-hov" style="width: 11rem;">
+          <img src="./images/cs_logo.jpg" class="card-img-top game-img" alt="Counter Strike">
+          <div class="card-body">
+              <h3 class="game-title"><i>Counter Strike</i></h3>
+              <p class="card-text"> redefines tactical shooting with improved graphics, mechanics, and immersive gameplay..</p>
+
+              <div class="rating">
+                  <i class="bi bi-star-fill cus-icon"></i>
+                  <i class="bi bi-star-fill cus-icon"></i>
+                  <i class="bi bi-star-fill cus-icon"></i>
+                  <i class="bi bi-star-fill cus-icon"></i>
+                  <i class="bi bi-star-fill cus-icon"></i>
+                  <a href="https://www.counter-strike.net/cs2" target="_blank" class="p-3 fs-6"><i class="bi bi-download"></i></a>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- Dota 2 -->
+  <div class="col-6 col-sm-4 col-md-3 col-lg-2 game-card">
+      <div class="card card-hov" style="width: 11rem;">
+          <img src="./images/dota_logo.jpg" class="card-img-top game-img" alt="Dota 2">
+          <div class="card-body">
+              <h3 class="game-title"><i>Dota 2</i></h3>
+              <p class="card-text">
+                Dota 2 is a strategic multiplayer game with competitive esports scene.</p>
+              <div class="rating">
+                  <i class="bi bi-star-fill cus-icon"></i>
+                  <i class="bi bi-star-fill cus-icon"></i>
+                  <i class="bi bi-star-fill cus-icon"></i>
+                  <i class="bi bi-star-fill cus-icon"></i>
+                  <i class="bi bi-star-fill cus-icon"></i>
+                  <a href="https://www.dota2.com/" target="_blank" class="p-3 fs-6"><i class="bi bi-download"></i></a>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- Valorant -->
+  <div class="col-6 col-sm-4 col-md-3 col-lg-2 game-card">
+      <div class="card card-hov" style="width: 11rem;">
+          <img src="./images/valorant.jpg" class="card-img-top game-img" alt="Valorant">
+          <div class="card-body">
+              <h3 class="game-title"><i>Valorant</i></h3>
+              <p class="card-text">tactical shooter blending precise gunplay and unique agent abilities seamlessly.</p>
+              <div class="rating">
+                  <i class="bi bi-star-fill cus-icon"></i>
+                  <i class="bi bi-star-fill cus-icon"></i>
+                  <i class="bi bi-star-fill cus-icon"></i>
+                  <i class="bi bi-star-fill cus-icon"></i>
+                  <i class="bi bi-star-fill cus-icon"></i>
+                  <a href="https://playvalorant.com/" target="_blank" class="p-3 fs-6"><i class="bi bi-download"></i></a>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- The Sims 4 -->
+  <div class="col-6 col-sm-4 col-md-3 col-lg-2 game-card">
+      <div class="card card-hov" style="width: 11rem;">
+          <img src="./images/sims4.jpg" class="card-img-top game-img" alt="The Sims 4">
+          <div class="card-body">
+              <h3 class="game-title"><i>The Sims 4</i></h3>
+              <p class="card-text">The Sims 4 lets players create, customize, and control virtual lives in dynamic worlds.</p>
+              <div class="rating">
+                  <i class="bi bi-star-fill cus-icon"></i>
+                  <i class="bi bi-star-fill cus-icon"></i>
+                  <i class="bi bi-star-fill cus-icon"></i>
+                  <i class="bi bi-star-fill cus-icon"></i>
+                  <i class="bi bi-star-fill cus-icon"></i>
+                  <a href="https://www.ea.com/ru/games/the-sims/the-sims-4" target="_blank" class="p-3 fs-6"><i class="bi bi-download"></i></a>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- Overwatch 2 -->
+  <div class="col-6 col-sm-4 col-md-3 col-lg-2 game-card">
+      <div class="card card-hov" style="width: 11rem;">
+          <img src="./images/overwatch.jpg" class="card-img-top game-img" alt="Overwatch 2">
+          <div class="card-body">
+              <h3 class="game-title"><i>Overwatch 2</i></h3>
+              <p class="card-text">Overwatch 2 is a team-based shooter with heroes, dynamic maps, and cooperative missions.</p>
+              <div class="rating">
+                  <i class="bi bi-star-fill cus-icon"></i>
+                  <i class="bi bi-star-fill cus-icon"></i>
+                  <i class="bi bi-star-fill cus-icon"></i>
+                  <i class="bi bi-star-fill cus-icon"></i>
+                  <i class="bi bi-star-fill cus-icon"></i>
+                  <a href="https://overwatch.blizzard.com/" target="_blank" class="p-3 fs-6"><i class="bi bi-download"></i></a>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- Cyberpunk 77 -->
+  <div class="col-6 col-sm-4 col-md-3 col-lg-2 game-card">
+      <div class="card card-hov" style="width: 11rem;">
+          <img src="./images/cyberpunk.avif" class="card-img-top game-img" alt="Cyberpunk 77">
+          <div class="card-body">
+              <h3 class="game-title"><i>Cyberpunk 77</i></h3>
+              <p class="card-text">Cyberpunk 2077 is an open-world RPG set in a futuristic, dystopian Night City.</p>
+              <div class="rating">
+                  <i class="bi bi-star-fill cus-icon"></i>
+                  <i class="bi bi-star-fill cus-icon"></i>
+                  <i class="bi bi-star-fill cus-icon"></i>
+                  <i class="bi bi-star-fill cus-icon"></i>
+                  <i class="bi bi-star-fill cus-icon"></i>
+                  <a href="https://store.steampowered.com/app/1091500/Cyberpunk_2077/" target="_blank" class="p-3 fs-6"><i class="bi bi-download"></i></a>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  
+</div>
+
+
+  <!-- Adventure section -->
+  <div class="row text-white ">
+    <div class="col-12 col-md-6 box-1 ">
+      <h1>Adventure</h1>
+    </div>
+  </div>
+
+  <div class="row mb-5">
+    <div class="col-6 col-sm-4 col-md-3 col-lg-2 game-card">
+      <div class="card card-hov" style="width: 11rem;">
+        <img src="./images/twitcher.webp" class="card-img-top game-img" alt="...">
+        <div class="card-body">
+          <h3 class="game-title"><i>The witcher 3</i></h3>
+          <p class="card-text">The Witcher 3 is an open-world RPG following Geralt's epic journey through fantasy realms.</p>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <a href="https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/ " target="_blank" class="p-3 fs-6"><i class="bi bi-download"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-sm-4 col-md-3 col-lg-2  game-card">
+      <div class="card card-hov" style="width: 11rem;">
+        <img src="./images/elden.jpg" class="card-img-top game-img" alt="...">
+        <div class="card-body">
+          <h3 class="game-title"><i>Elden Ring</i></h3>
+          <p class="card-text">Elden Ring is an open-world action RPG set in a vast, mysterious fantasy world.</p>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <a href="https://store.steampowered.com/app/1245620/ELDEN_RING/" target="_blank" class="p-3 fs-6"><i class="bi bi-download"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-sm-4 col-md-3 col-lg-2  game-card">
+      <div class="card card-hov" style="width: 11rem;">
+        <img src="./images/subnautica.webp" class="card-img-top game-img" alt="...">
+        <div class="card-body">
+          <h3 class="game-title"><i>Subnautica</i></h3>
+          <p class="card-text">Subnautica is an underwater survival game where players explore an alien oceanic world.</p>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <a href="https://store.steampowered.com/app/264710/Subnautica/" target="_blank" class="p-3 fs-6"><i class="bi bi-download"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-sm-4 col-md-3 col-lg-2  game-card">
+      <div class="card card-hov" style="width: 11rem;">
+        <img src="./images/lifestrange.jpg" class="card-img-top game-img" alt="...">
+        <div class="card-body">
+          <h3 class="game-title"><i>Life is Strange</i></h3>
+          <p class="card-text">episodic adventure game centered around time manipulation and emotional storytelling.</p>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <a href="https://lifeisstrange.square-enix-games.com/en-us" target="_blank" class="p-3 fs-6"><i class="bi bi-download"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-sm-4 col-md-3 col-lg-2  game-card">
+      <div class="card card-hov" style="width: 11rem;">
+        <img src="./images/disco.png" class="card-img-top game-img" alt="...">
+        <div class="card-body">
+          <h3 class="game-title"><i>Disco Elysium</i></h3>
+          <p class="card-text">Disco Elysium is an open-world RPG focused on detective work, dialogue, and personal choices.</p>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <a href="https://store.steampowered.com/app/632470/Disco_Elysium__The_Final_Cut/" target="_blank" class="p-3 fs-6"><i class="bi bi-download"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-sm-4 col-md-3 col-lg-2  game-card">
+      <div class="card card-hov" style="width: 11rem;">
+        <img src="./images/sekiro.jpg" class="card-img-top game-img" alt="...">
+        <div class="card-body">
+          <h3 class="game-title"><i>Sekiro</i></h3>
+          <p class="card-text">Die Twice is an action-adventure game set in feudal Japan, focusing on precision combat.</p>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <a href="https://store.steampowered.com/app/814380/Sekiro_Shadows_Die_Twice__GOTY_Edition/" target="_blank" class="p-3 fs-6"><i class="bi bi-download"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Sports section -->
+  <div class="row text-white">
+    <div class="col-12 col-sm-4 col-md-6 col-lg-2 box-1 ">
+      <h1>Sports</h1>
+    </div>
+  </div>
+
+  <div class="row ">
+    <div class="col-6 col-sm-4 col-md-3 col-lg-2 game-card">
+      <div class="card card-hov" style="width: 11rem;">
+        <img src="./images/fifa.avif" class="card-img-top game-img" alt="...">
+        <div class="card-body">
+          <h3 class="game-title"><i>Fifa 23</i></h3>
+          <p class="card-text">FIFA 23 is a soccer simulation game featuring realistic gameplay, teams, and game modes.ultimate team</p>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <a href="https://www.fifa.com/en" target="_blank" class="p-3 fs-6"><i class="bi bi-download"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-sm-4 col-md-3 col-lg-2 game-card">
+      <div class="card card-hov" style="width: 11rem;">
+        <img src="./images/fmanager.png" class="card-img-top game-img" alt="...">
+        <div class="card-body">
+          <h3 class="game-title"><i>Foot manager</i></h3>
+          <p class="card-text">Football Manager is a sports simulation game where players manage a football team's strategy and operations.</p>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <a href="https://www.footballmanager.com/" target="_blank" class="p-3 fs-6"><i class="bi bi-download"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-sm-4 col-md-3 col-lg-2 game-card">
+      <div class="card card-hov" style="width: 11rem;">
+        <img src="./images/pes2.jpg" class="card-img-top game-img" alt="...">
+        <div class="card-body">
+          <h3 class="game-title"><i>Pes(eFootball)</i></h3>
+          <p class="card-text">eFootball (formerly PES) is a soccer simulation game focusing on realistic gameplay and online competition.</p>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <a href="https://efootballchampionship.konami.net/" target="_blank" class="p-3 fs-6"><i class="bi bi-download"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-sm-4 col-md-3 col-lg-2 game-card">
+      <div class="card card-hov" style="width: 11rem;">
+        <img src="./images/nba.jpg" class="card-img-top game-img" alt="...">
+        <div class="card-body">
+          <h3 class="game-title"><i>NBA 2k24</i></h3>
+          <p class="card-text">NBA 2K24 is a basketball simulation game featuring realistic gameplay, player customization, and career modes.</p>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <a href="https://nba.2k.com/2k24/" target="_blank" class="p-3 fs-6"><i class="bi bi-download"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-sm-4 col-md-3 col-lg-2 game-card ">
+      <div class="card card-hov" style="width: 11rem;">
+        <img src="./images/riders.jpg" class="card-img-top game-img" alt="...">
+        <div class="card-body">
+          <h3 class="game-title"><i>R's Republic</i></h3>
+          <p class="card-text">Riders Republic is an extreme sports game where players compete in diverse, open-world challenges.</p>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <a href="https://ubisoft.com/en-gb/game/riders-republic" target="_blank" class="p-3 fs-6"><i class="bi bi-download"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-sm-4 col-md-3 col-lg-2 game-card ">
+      <div class="card card-hov" style="width: 11rem;">
+        <img src="./images/steep.avif" class="card-img-top game-img" alt="...">
+        <div class="card-body">
+          <h3 class="game-title"><i>Steep</i></h3>
+          <p class="card-text">Steep is an open-world extreme sports game that lets players ski, snowboard, and wingsuit across vast landscapes.</p>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <i class="bi bi-star-fill cus-icon"></i>
+          <a href="https://www.ubisoft.com/en-gb/game/steep" target="_blank" class="p-3 fs-6"><i class="bi bi-download"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    
+
+
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel"><i>Counter Strike 2</i></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Counter-Strike 2 (CS2) is the latest installment in the iconic Counter-Strike series, built on the powerful Source 2 engine. Known for its tactical gameplay, CS2 offers improved graphics, physics, and map designs, alongside faster response times and smoother gameplay. Players engage in intense 5v5 matches as either terrorists or counter-terrorists, planting or defusing bombs, or rescuing hostages. With enhanced visuals, new maps, and a refreshed competitive scene, CS2 promises to deliver both nostalgia for long-time fans and excitement for newcomers.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="dota2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel"><i>Dota 2</i></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Dota 2 is a multiplayer online battle arena (MOBA) game developed by Valve. It’s one of the most popular and competitive esports titles, featuring two teams of five players, each controlling a unique hero with distinct abilities. The goal is to destroy the enemy’s Ancient, located in their base, while protecting your own. Dota 2 is known for its deep strategy, complex gameplay mechanics, and a vast roster of over 100 heroes. The game offers regular updates, new heroes, and international tournaments, such as The International, where top teams compete for millions in prize money.      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="volarant" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel"><i>Volarant</i></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Valorant is a tactical first-person shooter (FPS) developed by Riot Games. Released in 2020, the game blends strategic, team-based gameplay with precise shooting mechanics. Players select from a diverse roster of "Agents," each with unique abilities that enhance gameplay beyond traditional gunplay. Teams of five face off in objective-based matches, typically involving planting/defusing bombs or eliminating the opposing team. Valorant's emphasis on teamwork, strategy, and gun mechanics has made it a highly popular title in the esports scene, with competitive play and regular updates keeping the community engaged.      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="thesims" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel"><i>The Sims 4</i></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        The Sims 4 is a life simulation video game developed by Maxis and published by Electronic Arts. Released in 2014, it's part of The Sims series, where players create and control virtual characters (Sims) as they live their everyday lives. Players can design homes, form relationships, pursue careers, and explore various life events like marriage, parenthood, and aging. The game features customizable Sims, unique personalities, and a wide variety of expansion packs and downloadable content that add new features, locations, and gameplay options. The Sims 4 has a huge community, with players frequently sharing their creations and stories online.      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="overwatch" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel"><i>Overwatch 2</i></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Overwatch 2 is a team-based first-person shooter developed by Blizzard Entertainment and released in 2022 as the sequel to the popular game Overwatch (2016). It introduces new maps, heroes, and game modes while evolving the gameplay to focus on 5v5 matches instead of 6v6. Overwatch 2 places an emphasis on hero progression, with each character having distinct abilities and playstyles. The game also features a new "Push" mode, where teams race to control a robot and push it toward the enemy's side. Overwatch 2 has a free-to-play model with a seasonal battle pass system for unlocking skins, emotes, and other cosmetics. The game continues to evolve with regular updates and events.      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="cyberpunk" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel"><i>Cyberpunk 2077</i></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Cyberpunk 2077 is an open-world action role-playing game developed by CD Projekt Red, released in December 2020. Set in the dystopian Night City, the game immerses players in a futuristic world filled with advanced technology, cybernetic enhancements, and rampant crime. Players take on the role of V, a customizable character seeking to uncover the truth behind a mysterious implant that holds the digital ghost of a legendary rockerboy named Johnny Silverhand, voiced by Keanu Reeves. The game features a dynamic narrative, multiple playstyles, and expansive exploration, with a focus on combat, hacking, and dialogue choices. Despite a rocky launch, Cyberpunk 2077 has received significant updates and improvements, making it a more refined experience.      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="thetwitcher" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel"><i>The witcher 3</i></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        The Witcher 3: Wild Hunt is an action role-playing game developed by CD Projekt Red, released in May 2015. It is the third installment in The Witcher series, based on the book series by Andrzej Sapkowski. Players control Geralt of Rivia, a monster hunter known as a Witcher, as he embarks on a quest to find his adopted daughter, Ciri, who is being hunted by the mysterious Wild Hunt. The game is set in a vast, open world, rich with detailed environments, complex characters, and branching narratives that offer multiple endings. It features a mix of combat, exploration, and decision-making, where choices made throughout the game have significant consequences. Widely regarded as one of the greatest video games of all time, The Witcher 3 received numerous awards for its storytelling, world-building, and gameplay mechanics. It also had two major expansions, Hearts of Stone and Blood and Wine, which added even more content and depth to the game.      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="eldenring" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel"><i>Elden Ring</i></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Elden Ring is an action role-playing game developed by FromSoftware and published by Bandai Namco Entertainment, released in February 2022. The game is directed by Hidetaka Miyazaki, the creator of the Dark Souls series, and features collaboration with A Song of Ice and Fire author George R. R. Martin, who helped craft the game's lore and world-building.
+
+        Set in the vast, open world of the Lands Between, Elden Ring allows players to explore a fractured, mysterious world filled with challenging enemies, powerful bosses, and deep, interconnected lore. Players control the Tarnished, a character tasked with seeking the shattered Elden Ring to become the Elden Lord. The game is known for its intricate world design, punishing difficulty, and freedom of exploration, encouraging players to venture off the beaten path.
+        
+        With a rich fantasy setting, dynamic combat, and numerous character-building options, Elden Ring has received widespread acclaim for its storytelling, gameplay, and immersive open-world experience. It's considered one of the best games of the 2020s and has won multiple Game of the Year awards.      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="subnautica" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel"><i>Subnautica</i></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Subnautica is an open-world survival action-adventure game developed and published by Unknown Worlds Entertainment. Released in early access in 2014 and fully launched in 2018, the game is set in the distant future, where players explore an alien underwater world after their spaceship, the Aurora, crashes on an ocean-covered planet.
+
+        The goal of Subnautica is to survive, explore, and eventually escape the planet by collecting resources, crafting tools, and building habitats. Players dive into the vast, beautifully rendered oceans, uncovering mysterious environments filled with dangerous creatures, hidden secrets, and valuable resources. As they explore deeper, they face ever-increasing dangers, from hostile sea creatures to the threat of dehydration and hunger.
+        
+        The game features a rich story that unravels through exploration, with players discovering logs, data pads, and artifacts left behind by other explorers. It has been praised for its atmospheric world-building, engaging gameplay mechanics, and stunning underwater visuals. Subnautica also has a sequel, Subnautica: Below Zero, which explores new regions and introduces new survival challenges.      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="lifeisstrange" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel"><i>Life is Strange</i></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Life is Strange is an episodic graphic adventure game developed by Dontnod Entertainment and published by Square Enix. Originally released in 2015, it follows the story of Max Caulfield, a photography student at Blackwell Academy, who discovers she has the ability to rewind time. The game is set in the fictional town of Arcadia Bay, Oregon, and centers on Max's efforts to navigate the complexities of friendship, love, and the consequences of her newfound powers.
+
+        The narrative unfolds over five episodes, where players make decisions that shape the story, and the consequences of these choices are often reflected later in the game. Throughout the journey, Max tries to uncover the mysteries surrounding her town, including a missing student and strange occurrences that may be tied to her powers. The game is known for its emotional depth, dealing with themes like mental health, identity, and the impact of choices.
+        
+        Life is Strange received widespread acclaim for its storytelling, character development, and the way it handles difficult, real-world issues. Its success led to the release of prequels and sequels, including Life is Strange: Before the Storm and Life is Strange 2. A remastered version was also released in 2022, bringing updated graphics and gameplay improvements.      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="discoelsyium" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel"><i>Disco Elysium</i></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+        Disco Elysium is a critically acclaimed role-playing game developed by ZA/UM. Released in 2019, it follows a troubled detective with amnesia as he investigates a murder in a dystopian city. The game focuses on dialogue, decision-making, and character development rather than combat. Players shape the protagonist's personality through choices, with various skills and traits influencing interactions and outcomes. Known for its deep narrative, philosophical themes, and unique art style, Disco Elysium won numerous awards and is celebrated for its complex storytelling and character-driven gameplay.      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="sekiro" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel"><i>Sekiro</i></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Sekiro: Shadows Die Twice is an action-adventure game developed by FromSoftware and released in 2019. Set in a reimagined late 1500s Japan, players control a shinobi named Wolf on a quest to rescue his kidnapped lord and seek revenge on his enemies. The game emphasizes precise combat, stealth, and exploration. Unlike FromSoftware's other titles, Sekiro focuses on a more aggressive, skill-based combat system with a strong emphasis on timing and parrying. Its challenging difficulty, rich storytelling, and stunning visuals earned it critical acclaim, winning Game of the Year at The Game Awards 2019.      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="fifa23" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel"><i>Fifa 23</i></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        FIFA 23 is the latest installment in the popular football simulation video game series developed by EA Sports. Released in 2022, it marks the final game in the long-standing partnership between EA and FIFA. Featuring realistic gameplay, enhanced graphics, and a vast roster of teams, players, and leagues, FIFA 23 offers both single-player and multiplayer modes, including career mode, ultimate team, and online play. The game introduces new mechanics like HyperMotion2 technology, enhancing player movements and animations. It also features the men’s and women’s World Cups, making it a celebration of global football.      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="footballmanager" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel"><i>Football manager</i></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Football Manager is a highly acclaimed sports simulation video game series developed by Sports Interactive. It allows players to take on the role of a football team manager, making decisions about tactics, transfers, training, and more. The game features real-life leagues, teams, and players from around the world, offering a highly detailed and immersive experience. Players can guide their chosen club to success, balancing both on-field strategies and off-field management. With its deep mechanics and extensive database, Football Manager is a favorite among football enthusiasts who enjoy the challenge of managing a club's day-to-day operations.      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="pes" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel"><i>Pes(eFootball)</i></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        PES (Pro Evolution Soccer) / eFootball is a popular football video game series developed by Konami. It focuses on delivering realistic gameplay, with a strong emphasis on fluid player movements, tactical depth, and accurate ball physics. Originally known as Pro Evolution Soccer, it was rebranded to eFootball starting in 2021, transitioning to a free-to-play model. The game features licensed teams, stadiums, and players, although it is known for having fewer official licenses compared to its competitor FIFA. PES/eFootball is beloved for its tactical realism and precision gameplay, attracting fans who appreciate a more simulation-oriented football experience.      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="nba" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel"><i>NBA 2k24</i></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        NBA 2K24 is the latest installment in the NBA 2K series, developed by Visual Concepts and published by 2K Sports. It offers a highly immersive basketball experience with realistic graphics, gameplay, and player movements. The game features both single-player and multiplayer modes, including the popular MyCareer, MyTeam, and online play. NBA 2K24 includes updated rosters, new player animations, and improved AI. The game also introduces new features, such as expanded career modes, enhanced customization options, and better online connectivity. It is widely regarded for its attention to detail and depth, making it a go-to choice for basketball fans.      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="riders" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel"><i>Riders Republic</i></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+        Riders Republic is an extreme sports video game developed by Ubisoft Annecy. It allows players to participate in various thrilling outdoor sports, including skiing, snowboarding, mountain biking, and wingsuiting, all within an open-world, multiplayer environment. Set in iconic national parks across the U.S., the game offers a massive playground where players can team up or compete in chaotic, large-scale events. With a focus on fun and freedom, Riders Republic blends realistic sports mechanics with an over-the-top, action-packed atmosphere. The game also features character customization, progression systems, and a vibrant social hub for players to interact.      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="steep" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel"><i>Steep</i></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Steep is an open-world extreme sports game developed by Ubisoft Annecy. Set in the snowy mountains of the Alps and Alaska, the game lets players experience a variety of winter sports, including skiing, snowboarding, wingsuit flying, and paragliding. Players can freely explore vast landscapes, complete challenges, and take part in online competitions. The game emphasizes fluid movement, breathtaking views, and the freedom to tackle mountains in creative ways. With a focus on exploration and adrenaline-fueled gameplay, Steep offers a unique winter sports experience with a social and competitive edge.      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+</div>
+
+<!-- Members -->
+  <div class="members-back">
+    <div class="container" id="members">
+      <div class="row text-white">
+        <div class="col text-center mt-5 head-member">
+          <H1 class="members-heading">Members in our club</H1>
+        </div>
+      </div>
+
+      <section class="reviews " id="reviews">
+        <div class="container reviews-container mt-5">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-4 mb-5 mb-md-4">
+                    <h2>Stories you from our members</h2>
+                    <p style="font-size: 20px;">
+                        Scientist, Doctors, Teachers, Painters, Military workers all are our members, WHY NOT YOU?!
+                    </p>
+                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" >
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="./images/nemat-post.jpg" class="d-block w-100 rounded mb-3" alt="member comment1" style="width: 10px; height: 550px;">
+                          <h3>Nematullo</h3>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./images/Xasan-post.jpg" class="d-block w-100 rounded mb-3" alt="member comment2" style="width: 10px; height: 550px;">
+                          <h3>Xasan</h3>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./images/abdulaziz-post.jpg" class="d-block w-100 rounded mb-3" alt="member comment2" style="width: 10px; height: 550px;">
+                          <h3>Abdulaziz</h3>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./images/xondamir-post.png" class="d-block w-100 rounded mb-3" alt="member comment3" style="width: 10px; height: 550px;">
+                          <h3>Xondamir</h3>
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-10 col-lg-4  ">
+                  <h1>Directors</h1>
+                    <div class="carousel slide" id="carouselexampleslide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <!--carousel 1-->
+                            <div class="carousel-item active">
+                                <div>
+                                    <p style="font-size: 25px;">
+                                      Yusufjon Tolibjonov, CEO. He is the highest-ranking executive in a company and
+                                      responsible for making major corporate decisions, managing overall operations,
+                                       and acting as the main point of communication between the board of directors and corporate operations. 
+                                    </p>
+                                </div>
+                                <div class="d-flex align-items-center mt-4">
+                                    <img src="./images/yusufjon.jpg" alt=""  style="width: 80px;" class="rounded-circle">
+                                    <div class="ps-2">
+                                        <p class="mb-1">
+                                          <h5><strong>Yusufjon 시</strong></h5>
+                                        </p>
+                                        <p class="mb-0 ">
+                                            CEO of
+                                            <a href="#" class="text-decoration-none ">Anfield Arena</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/Carousel 1-->
+
+                            <!--Carousel 2-->
+                            <div class="carousel-item">
+                                <div>
+                                    <p style="font-size: 25px;">
+                                      Azim Norqulov, CTO. He is in charge of the technological direction of the company. 
+                                      He oversees the development and correct implementation of technology and software, 
+                                      often managing the technical team. He ensures that the company’s technology strategy aligns with its business goals..
+                                    </p>
+                                </div>
+                                <div class="d-flex align-items-center mt-4">
+                                    <img src="./images/azim.jpg" alt="" style="width: 80px;" class="rounded-circle">
+                                    <div class="ps-2">
+                                        <p class="mb-1">
+                                            <h5><strong>Azim 시</strong></h5>
+                                        </p>
+                                        <p class="mb-0 text-seconadary">
+                                            CTO of
+                                            <a href="#" class="text-decoration-none">Anfield Arena</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/Carousel 2-->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row text-white">
+              <div class="col text-center mt-5 ">
+                <H1 class="members-heading">Active members 
+                  <i class="bi bi-person-circle"></i>
+                </H1>
+              </div>
+            </div>
+            <!-- active members birinchi qatori -->
+            <div class="row justify-content-center">
+              <div class="col-12 col-sm-8 col-md-8 col-lg-6">
+
+                <div class="card mb-3 members-card-back active-members-pointer glow-box" style="max-width: 600px;">
+                  <div class="row g-0">
+                    <div class="col-md-4 ">
+                      <img src="./images/yusufjon-card.jpg" class="img-fluid rounded active-members-pointer" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body ">
+                        <h2 class="card-title active-members-pointer text-white">Yusufjon <i class="bi bi-person-lines-fill"></i></h2>
+                        <h5 class="active-members-pointer text-warning">
+                          Age: <p class=" d-inline" style="color: white;">18</p>
+                        </h5>
+                        <h5 class=" active-members-pointer text-warning">nickname:<p class=" d-inline" style="color: white;"><i>m5</i></p></h5>
+                        <h5 class=" active-members-pointer text-warning">Favourite games:<p class=" d-inline" style="color: white;">cs2, pes, fifa</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Gaming hours per week: <p class=" d-inline" style="color: white;">15 hours</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Joined Date: <p class=" d-inline" style="color: white;">01.09.2024</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Current team: <p class=" d-inline" style="color: white;">Aut e40-b</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Location: <p class=" d-inline" style="color: white;">Samarkand</p></h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="col-12 col-sm-8 col-md-8 col-lg-6">
+
+                <div class="card mb-3 members-card-back active-members-pointer glow-box" style="max-width: 600px;">
+                  <div class="row g-0">
+                    <div class="col-md-4 ">
+                      <img src="./images/xondamir-card.jpg" class="img-fluid rounded active-members-pointer" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body ">
+                        <h2 class="card-title active-members-pointer text-white">Xondamir <i class="bi bi-person-lines-fill"></i></h2>
+                        <h5 class="active-members-pointer text-warning">
+                          Age: <p class=" d-inline" style="color: white;">19</p>
+                        </h5>
+                        <h5 class=" active-members-pointer text-warning">nickname:<p class=" d-inline" style="color: white;"><i>Blacksword</i></p></h5>
+                        <h5 class=" active-members-pointer text-warning">Favourite games:<p class=" d-inline" style="color: white;">cs2, pes, gta 5</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Gaming hours per week: <p class=" d-inline" style="color: white;">12 hours</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Joined Date: <p class=" d-inline" style="color: white;">20.10.2024</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Current team: <p class=" d-inline" style="color: white;">Aut e40-b</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Location: <p class=" d-inline" style="color: white;">tashkent</p></h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            <div class="row justify-content-center">
+              <div class="col-12 col-sm-8 col-md-8 col-lg-6">
+
+                <div class="card mb-3 members-card-back active-members-pointer glow-box" style="max-width: 600px;">
+                  <div class="row g-0">
+                    <div class="col-md-4 ">
+                      <img src="./images/azim-card.jpg" class="img-fluid rounded active-members-pointer" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body ">
+                        <h2 class="card-title active-members-pointer text-white">Azim <i class="bi bi-person-lines-fill"></i></h2>
+                        <h5 class="active-members-pointer text-warning">
+                          Age: <p class=" d-inline" style="color: white;">19</p>
+                        </h5>
+                        <h5 class=" active-members-pointer text-warning">nickname:<p class=" d-inline" style="color: white;"><i>Temurlan</i></p></h5>
+                        <h5 class=" active-members-pointer text-warning">Favourite games:<p class=" d-inline" style="color: white;">cs2, gta 5, fifa</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Gaming hours per week: <p class=" d-inline" style="color: white;">21 hours</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Joined Date: <p class=" d-inline" style="color: white;">15.09.2024</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Current team: <p class=" d-inline" style="color: white;">Aut e40-b</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Location: <p class=" d-inline" style="color: white;">Samarkand</p></h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="col-12 col-sm-8 col-md-8 col-lg-6">
+
+                <div class="card mb-3 members-card-back active-members-pointer glow-box" style="max-width: 600px;">
+                  <div class="row g-0">
+                    <div class="col-md-4 ">
+                      <img src="./images/abdulaziz-card.jpg" class="img-fluid rounded active-members-pointer" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body ">
+                        <h2 class="card-title active-members-pointer text-white" >Abdulaziz <i class="bi bi-person-lines-fill"></i></h2>
+                        <h5 class="active-members-pointer text-warning">
+                          Age: <p class=" d-inline" style="color: white;">19</p>
+                        </h5>
+                        <h5 class=" active-members-pointer text-warning">nickname:<p class=" d-inline" style="color: white;"><i>tsumaki</i></p></h5>
+                        <h5 class=" active-members-pointer text-warning">Favourite games:<p class=" d-inline" style="color: white;">cs2, league of legends</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Gaming hours per week: <p class=" d-inline" style="color: white;">25 hours</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Joined Date: <p class=" d-inline" style="color: white;">28.09.2024</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Current team: <p class=" d-inline" style="color: white;">Aut e40-b</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Location: <p class=" d-inline" style="color: white;">Tashkent</p></h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              
+            </div>
+            
+
+            <div class="row justify-content-center">
+              <div class="col-12 col-sm-8 col-md-8 col-lg-6">
+
+                <div class="card mb-3 members-card-back active-members-pointer glow-box " style="max-width: 600px;">
+                  <div class="row g-0">
+                    <div class="col-md-4 ">
+                      <img src="./images/nemat-card.jpg" class="img-fluid rounded active-members-pointer" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body ">
+                        <h2 class="card-title active-members-pointer text-white">Ne'matullo <i class="bi bi-person-lines-fill"></i></h2>
+                        <h5 class="active-members-pointer text-warning">
+                          Age: <p class=" d-inline" style="color: white;">19</p>
+                        </h5>
+                        <h5 class=" active-members-pointer text-warning">nickname:<p class=" d-inline" style="color: white;"><i>telegram</i></p></h5>
+                        <h5 class=" active-members-pointer text-warning">Favourite games:<p class=" d-inline" style="color: white;">cs2</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Gaming hours per week: <p class=" d-inline" style="color: white;">80 hours</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Joined Date: <p class=" d-inline" style="color: white;">22.09.2024</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Current team: <p class=" d-inline" style="color: white;">Aut e40-b</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Location: <p class=" d-inline" style="color: white;">Andijan</p></h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="col-12 col-sm-8 col-md-8 col-lg-6">
+
+                <div class="card mb-3 members-card-back active-members-pointer glow-box" style="max-width: 600px;">
+                  <div class="row g-0">
+                    <div class="col-md-4 ">
+                      <img src="./images/nazar-card.jpg" class="img-fluid rounded active-members-pointer" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body ">
+                        <h2 class="card-title active-members-pointer text-white">Nazarbek <i class="bi bi-person-lines-fill"></i></h2>
+                        <h5 class="active-members-pointer text-warning">
+                          Age: <p class=" d-inline" style="color: white;">19</p>
+                        </h5>
+                        <h5 class=" active-members-pointer text-warning">nickname:<p class=" d-inline" style="color: white;"><i>rak</i></p></h5>
+                        <h5 class=" active-members-pointer text-warning">Favourite games:<p class=" d-inline" style="color: white;">cs2, dota 2, volarant</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Gaming hours per week: <p class=" d-inline" style="color: white;">21 hours</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Joined Date: <p class=" d-inline" style="color: white;">20.09.2024</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Current team: <p class=" d-inline" style="color: white;">Aut e40-b</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Location: <p class=" d-inline" style="color: white;">tashkent</p></h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              
+            </div>
+
+            <div class="row justify-content-center">
+              <div class="col-12 col-sm-8 col-md-8 col-lg-6">
+
+                <div class="card mb-3 members-card-back active-members-pointer glow-box" style="max-width: 600px;">
+                  <div class="row g-0">
+                    <div class="col-md-4 ">
+                      <img src="./images/shamshod-card.jpg" class="img-fluid rounded active-members-pointer" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body ">
+                        <h2 class="card-title active-members-pointer text-white">Shamshod <i class="bi bi-person-lines-fill"></i></h2>
+                        <h5 class="active-members-pointer text-warning">
+                          Age: <p class=" d-inline" style="color: white;">19</p>
+                        </h5>
+                        <h5 class=" active-members-pointer text-warning">nickname:<p class=" d-inline" style="color: white;"><i>sham1k</i></p></h5>
+                        <h5 class=" active-members-pointer text-warning">Favourite games:<p class=" d-inline" style="color: white;">cs2, pubg</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Gaming hours per week: <p class=" d-inline" style="color: white;">12 hours</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Joined Date: <p class=" d-inline" style="color: white;">18.09.2024</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Current team: <p class=" d-inline" style="color: white;">Aut e40-b</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Location: <p class=" d-inline" style="color: white;">Bukhara</p></h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="col-12 col-sm-8 col-md-8 col-lg-6">
+
+                <div class="card mb-3 members-card-back active-members-pointer glow-box" style="max-width: 600px;">
+                  <div class="row g-0">
+                    <div class="col-md-4 ">
+                      <img src="./images/behruz-card.jpg" class="img-fluid rounded active-members-pointer" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body ">
+                        <h2 class="card-title active-members-pointer text-white">Bekhruz <i class="bi bi-person-lines-fill"></i></h2>
+                        <h5 class="active-members-pointer text-warning">
+                          Age: <p class=" d-inline" style="color: white;">19</p>
+                        </h5>
+                        <h5 class=" active-members-pointer text-warning">nickname:<p class=" d-inline" style="color: white;"><i>bexruzoydinov2</i></p></h5>
+                        <h5 class=" active-members-pointer text-warning">Favourite games:<p class=" d-inline" style="color: white;">cs2, gta</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Gaming hours per week: <p class=" d-inline" style="color: white;">20 hours</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Joined Date: <p class=" d-inline" style="color: white;">10.10.2024</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Current team: <p class=" d-inline" style="color: white;">Aut e40-b</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Location: <p class=" d-inline" style="color: white;">Surkhandarya</p></h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              
+            </div>
+
+            <div class="row justify-content-center">
+              <div class="col-12 col-sm-8 col-md-8 col-lg-6">
+
+                <div class="card mb-3 members-card-back active-members-pointer glow-box" style="max-width: 600px;">
+                  <div class="row g-0">
+                    <div class="col-md-4 ">
+                      <img src="./images/hasan-card.jpg" class="img-fluid rounded active-members-pointer" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body ">
+                        <h2 class="card-title active-members-pointer text-white">Xasan <i class="bi bi-person-lines-fill"></i></h2>
+                        <h5 class="active-members-pointer text-warning">
+                          Age: <p class=" d-inline" style="color: white;">20</p>
+                        </h5>
+                        <h5 class=" active-members-pointer text-warning">nickname:<p class=" d-inline" style="color: white;"><i>nonamechick7</i></p></h5>
+                        <h5 class=" active-members-pointer text-warning">Favourite games:<p class=" d-inline" style="color: white;">cs2</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Gaming hours per week: <p class=" d-inline" style="color: white;">8 hours</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Joined Date: <p class=" d-inline" style="color: white;">14.09.2024</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Current team: <p class=" d-inline" style="color: white;">Aut e40-b</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Location: <p class=" d-inline" style="color: white;">tashkent</p></h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="col-12 col-sm-8 col-md-8 col-lg-6">
+
+                <div class="card mb-3 members-card-back active-members-pointer glow-box" style="max-width: 600px;">
+                  <div class="row g-0">
+                    <div class="col-md-4 ">
+                      <img src="./images/abdurahmon-card.jpg" class="img-fluid rounded active-members-pointer" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body ">
+                        <h2 class="card-title active-members-pointer text-white">Abdurakhmon <i class="bi bi-person-lines-fill"></i></h2>
+                        <h5 class="active-members-pointer text-warning">
+                          Age: <p class=" d-inline" style="color: white;">20</p>
+                        </h5>
+                        <h5 class=" active-members-pointer text-warning">nickname:<p class=" d-inline" style="color: white;"><i>cwd</i></p></h5>
+                        <h5 class=" active-members-pointer text-warning">Favourite games:<p class=" d-inline" style="color: white;">cs2, dota 2</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Gaming hours per week: <p class=" d-inline" style="color: white;">15 hours</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Joined Date: <p class=" d-inline" style="color: white;">12.10.2024</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Current team: <p class=" d-inline" style="color: white;">Aut e40-b</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Location: <p class=" d-inline" style="color: white;">Fergana</p></h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              
+            </div>
+
+        </div>
+    </section>
+
+    </div>
+  </div>
+
+
+  <!-- Pricing page -->
+<div id="pricing-page">
+  <!-- Video background -->
+  <video id="video-background2" autoplay loop muted>
+    <source src="./images/pricing-back-vedio.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+
+
+        <!-- Pricing Plans Section -->
+  <div id="pricing-plans" class="text-light py-5">
+    <div class="container">
+      <h1 class="text-center mb-5">Choose Your Plan</h1>
+      <p class="text-center mb-4">
+        Flexible pricing options to meet your needs. No hidden fees or surprises!
+      </p>
+
+      <div class="row justify-content-center">
+        <!-- Basic Plan -->
+        <div class="col-lg-4 col-md-6 col-sm-10 mb-4">
+          <div class="card shadow-lg border-0">
+            <div class="card-header bg-primary text-white text-center">
+              <h3>Basic Plan</h3>
+            </div>
+            <div class="card-body text-center">
+              <h2 class="display-4">$19<span class="text-muted">/month</span></h2>
+              <ul class="list-group list-group-flush mb-3">
+                <li class="list-group-item">1 User</li>
+                <li class="list-group-item">5GB Storage</li>
+                <li class="list-group-item">Email Support</li>
+                <li class="list-group-item">Community Access</li>
+              </ul>
+              <a href="payments/basic-eng.html" class="btn btn-primary btn-block">Get Started</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pro Plan -->
+        <div class="col-lg-4 col-md-6 col-sm-10 mb-4">
+          <div class="card shadow-lg border-0">
+            <div class="card-header bg-success text-white text-center">
+              <h3>Pro Plan</h3>
+            </div>
+            <div class="card-body text-center">
+              <h2 class="display-4">$49<span class="text-muted">/month</span></h2>
+              <ul class="list-group list-group-flush mb-3">
+                <li class="list-group-item">5 Users</li>
+                <li class="list-group-item">50GB Storage</li>
+                <li class="list-group-item">Priority Email Support</li>
+                <li class="list-group-item">Access to Exclusive Content</li>
+              </ul>
+              <a href="payments/pro-eng.html" class="btn btn-success btn-block">Get started</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Premium Plan -->
+        <div class="col-lg-4 col-md-6 col-sm-10 mb-4">
+          <div class="card shadow-lg border-0">
+            <div class="card-header bg-danger text-white text-center">
+              <h3>Premium Plan</h3>
+            </div>
+            <div class="card-body text-center">
+              <h2 class="display-4">$99<span class="text-muted">/month</span></h2>
+              <ul class="list-group list-group-flush mb-3">
+                <li class="list-group-item">Unlimited Users</li>
+                <li class="list-group-item">Unlimited Storage</li>
+                <li class="list-group-item">24/7 Support</li>
+                <li class="list-group-item">Dedicated Account Manager</li>
+              </ul>
+              <a href="payments/premium-eng.html" class="btn btn-danger btn-block">Get started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    </div>
+  </div>
+</div>
+<!-- Pricing -->
+  
+
+<!-- Contact Page -->
+<div id="contact-page" class="py-5">
+  <div class="container">
+    <h1 class="text-center mb-4 text-white">Get in Touch</h1>
+    <p class="text-center mb-5 text-white">
+      Have questions or want to learn more? We'd love to hear from you!
+    </p>
+
+    <div class="row">
+      <!-- Contact Form -->
+      <div class="col-lg-6 mb-4 text-white">
+        <form id="contact-form" onsubmit="showThankYou(event)">
+          <div class="mb-3">
+            <label for="name" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email Address</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+          </div>
+          <div class="mb-3">
+            <label for="subject" class="form-label">Subject</label>
+            <input type="text" class="form-control" id="subject" placeholder="Enter subject" required>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="5" placeholder="Write your message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+        </form>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-lg-6 text-white">
+        <h4>Contact Information</h4>
+        <ul class="list-unstyled">
+          <li><i class="bi bi-envelope"></i> Email: anfieldarena@gmail.com</li>
+          <li><i class="bi bi-telephone"></i> Phone: +998 77 277 2772</li>
+          <li><i class="bi bi-geo-alt"></i> Address: Djargurgan st 113 A, Tashkent</li>
+          <li><i class="bi bi-geo-alt"></i> Address: chilanzar magnum supermarket, Tashkent</li>
+        </ul>
+
+        <h4 class="mt-4">Follow Us</h4>
+        <div class="d-flex">
+          <a href="https://www.facebook.com/ajou.uz/?locale=ru_RU" target="_blank" class="btn btn-outline-primary me-2"><i class="bi bi-facebook"></i></a>
+          <a href="https://x.com/ajouuniv" target="_blank" class="btn btn-outline-primary me-2"><i class="bi bi-twitter"></i></a>
+          <a href="https://www.instagram.com/ajou_uz/?hl=en" target="_blank" class="btn btn-outline-primary me-2"><i class="bi bi-instagram"></i></a>
+          <a href="https://t.me/s/ajou_uz" target="_blank" class="btn btn-outline-primary me-2"><i class="bi bi-telegram"></i></a>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="row justify-content-start">
+      <div class="col-12 col-sm-12 col-md-8 col-lg-8">
+        <!-- google Map -->
+        <div class="mt-4">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47949.88466240073!2d69.2705637904675!3d41.31173965499199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae5f7e492a66c1%3A0x77427ccd87b4ed9!2sAjou%20University%20in%20Tashkent!5e0!3m2!1sru!2s!4v1733735809380!5m2!1sru!2s"
+            class="map-frame"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </div>
+    
+
+  </div>
+</div>
+<!--/Contact page-->
+
+<!--Footer-->
+<footer class="bg-dark text-light py-4">
+  <div class="container">
+    <div class="row">
+      <!-- About Section -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <h5>About Us</h5>
+        <p>
+          Welcome to our game club! Join us to experience fun and challenges with like-minded gamers.
+        </p>
+        <p>
+          <a href="#about-us" class="text-light">Learn More</a>
+        </p>
+      </div>
+
+      <!--Links -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <h5>Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#home" class="text-light">Home</a></li>
+          <li><a href="#about-us" class="text-light">About Us</a></li>
+          <li><a href="#pricing-page" class="text-light">Pricing</a></li>
+          <li><a href="#contact" class="text-light">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Information -->
+      <div class="col-lg-4 col-md-12 mb-4">
+        <h5>Contact</h5>
+        <p><i class="bi bi-geo-alt-fill"></i>Ajou University, Tashkent</p>
+        <p><i class="bi bi-cpu"></i>www.anfield-arena.com</p>
+        <p><i class="bi bi-telephone-inbound"></i>+998 77 277 2772</p>
+        <!-- Social Media Links -->
+        <div class="social-icons">
+          <a href="#" class="text-light me-3"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="text-light me-3"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-light"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Footer -->
+    <div class="text-center mt-3">
+      <p class="mb-0">&copy; 2024 Anfield Arena. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

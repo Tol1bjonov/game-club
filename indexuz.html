@@ -1,0 +1,1535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anfield Arena</title>
+    <script src="app.js"></script>
+    <link rel="icon" href="./images/main-logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css"> <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="home-back">
+     <!--Navbar-->
+      <div class="container ">
+        <nav class="navbar navbar-expand-lg mb-4 sticky-top"><!--bg-dark-->
+          <div class="container-fluid">
+            <a class="navbar-brand text-white " href="#">
+              <img src="./images/main-logo.png" alt="Logo" width="60" height="50" class="d-inline-block align-text-center">
+              Anfield Arena
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ">
+                  <li class="navbar-item">
+                      <a href="#home" class="active nav-link text-warning custom-but" aria-current="page">Uy</a>
+                  </li>
+                  <li class="navbar-item">
+                      <a href="#about-us" class="text-warning nav-link custom-but" >Biz haqimizda</a>
+                  </li>
+                  <li class="navbar-item">
+                      <a href="#games" class="text-warning nav-link custom-but">o`yinlar</a>
+                  </li>
+                  <li class="navbar-item">
+                      <a href="#members" class="text-warning nav-link custom-but">Azolar</a>
+                  </li>
+                  <li class="navbar-item">
+                      <a href="#pricing-page" class="text-warning nav-link custom-but">Narxlar</a>
+                  </li>
+                  <li class="navbar-item">
+                      <a href="#contact_us" class="text-warning nav-link custom-but">Bog`lanish</a>
+                  </li>
+                  <div class="dropdown">
+                    <button class="btn btn-outline-light dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                      til
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
+                      <li><a class="dropdown-item" href="index.html" onclick="changeLanguage('en')">English</a></li>
+                    </ul>
+                  </div>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+  <!--/Navbar-->
+
+  <!--Home-->
+  
+      <div class="container" id="home">
+    
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          </div>
+          <div class="carousel-inner">
+            
+            <div class="carousel-item active">
+              
+              <img src="./images/cs_logo.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h2>Counter Strike 2</h2>
+                <p>Counter-Strike 2 takomillashtirilgan grafika, sezgir chekish va takomillashtirilgan xaritalar bilan yangi taktik o‘yin davrini olib keladi</p>
+                <button class="btn btn-success custom-but" onclick="window.open('https://www.counter-strike.net', '_blank');">Boshlash</button>
+
+              </div>
+              
+            </div>
+
+            <div class="carousel-item">
+              <video class="d-block w-100" autoplay loop muted>
+                  <source src="./images/cs_vedio.mp4" type="video/mp4">
+                  Brauzeringiz video tegini qo'llab-quvvatlamaydi.
+              </video>
+              <div class="carousel-caption d-none d-md-block">
+                  <h3>Counter-Strike 2</h3>
+              </div>
+            </div>
+          
+          <div class="carousel-item ">
+            <img src="./images/dota_logo.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Dota</h2>
+              <p>Dota 2 - bu afsonaviy ko'p o'yinchi onlayn jang maydoni (MOBA) o'yini bo'lib, u strategiya, jamoaviy ish va epik janglarda mahoratni uyg'unlashtiradi.</p>
+              <button class="btn btn-success custom-but" onclick="window.open('https://www.dota2.com/home', '_blank');">Boshlash</button>
+
+              
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <video class="d-block w-100" autoplay loop muted>
+                <source src="./images/dota_vedio.mp4" type="video/mp4">
+                Brauzeringiz video tegini qo'llab-quvvatlamaydi.
+            </video>
+            <div class="carousel-caption d-none d-md-block">
+                <h3>Dota 2</h3>
+            </div>
+          </div>
+
+            <div class="carousel-item">
+              <img src="./images/gta_logo.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h2>GTA 5</h2>
+                <p>
+                    GTA 5 keng qamrovli ochiq dunyo tajribasini, aralash harakatni, hikoya qilishni va sarguzasht va tartibsizlik uchun cheksiz imkoniyatlarni taklif etadi.</p>
+                <button class="btn btn-success custom-but" onclick="window.open('https://gta5rp.com/?utm_source=google&utm_medium=cpc&utm_campaign=google_search_manual_CIS&utm_content=721080593456&utm_term=grand%20theft%20auto%20v&gad_source=1&gclid=Cj0KCQiAu8W6BhC-ARIsACEQoDDykbB9T11sbzQAp4rU8o8qGkVrRTZ54aB35CDmiJgkU2A0m0akwI0aAmBQEALw_wcB', '_blank');">Boshlash</button>
+                
+
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <video class="d-block w-100" autoplay loop muted>
+                  <source src="./images/gta_vedio.mp4" type="video/mp4">
+                  Brauzeringiz video tegini qo'llab-quvvatlamaydi.
+              </video>
+              <div class="carousel-caption d-none d-md-block">
+                  <h3>GTA 5</h3>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+  </div>
+
+<!-- About us -->
+<div id="about-us">
+  <video id="video-background" autoplay loop muted>
+    <source src="./images/game_room_vedio.mp4" type="video/mp4">
+    Brauzeringiz video tegini qo'llab-quvvatlamaydi.
+  </video>
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1 class="text-center ">Biz haqimizda</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-4 ">
+        <h2>Biz kimmiz</h2>
+        <p>Ehtiros ijod bilan uchrashadigan Enfild Arenaga xush kelibsiz. Biz hamjamiyatimiz uchun yuqori darajadagi tajribalarni taqdim etishga intilgan professionallar, geymerlar va texnologiya ixlosmandlaridan iborat jamoamiz.</p>
+      </div>
+      <div class="col-12 col-md-4  ">
+        <h2>Bizning vazifamiz</h2>
+        <p>Bizning vazifamiz - o'yin, texnologiya va ijodga bo'lgan ishtiyoq gullab-yashnaydigan immersiv va inklyuziv makon yaratish. Biz shunchaki o'yin zali emas, balki g'oyalar tug'iladigan, rishtalar mustahkamlanadigan va xotiralar yaratiladigan markaz bo'lishni maqsad qilganmiz..</p>
+      </div>
+      <div class="col-12 col-md-4 d-none d-md-block ">
+        <h2>Bizning maqsadimiz</h2>
+        <p>Texnologiya, oʻyin-kulgi va hamjamiyat birlashadigan oʻyin ixlosmandlari uchun soʻnggi manzil boʻlish. Biz o'yin nimani anglatishini qayta aniqlashga intilamiz, har bir o'yinchi o'zini qadrli va ilhomlantiradi.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- About us -->
+
+
+<!--Games-->
+ <div class="games-back">
+  <div class="container" id="games">
+    <div class="row">
+      <div class="col">
+        <h1 class="text-center mt-5 text-white">O`yinlar</h1>
+      </div>
+    </div>
+
+    <!-- Search Bar -->
+    <div class="container mt-3 mb-3">
+      <div class="row justify-content-center">
+          <div class="col-8  col-md-6 ">
+              <div class="input-group">
+                  <input type="text" id="searchInput" class="form-control" placeholder="o`yin qidiring" aria-label="Search" onkeyup="searchFunction()">
+                  <button class="btn btn-primary" type="button"><i class="bi bi-search"></i></button>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="row text-white justify-content-start">
+      <div class="col-12  col-md-3 ">
+        <h1>Mashhur</h1>
+      </div>
+      <div class="col-12 col-md-3 ">
+        <div class="dropdown">
+  <button class="btn btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    O`yin malumotlari
+  </button>
+  <ul class="dropdown-menu">
+    <li><button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+      COUNTER STRIKE
+    </button></li>
+    <li><button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#dota2">
+      Dota 2
+    </button></li>
+    <li><button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#volarant">
+      Valorant
+    </button></li>
+    <li><button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#thesims">
+      The Sims 4
+    </button></li>
+    <li><button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#overwatch">
+      Overwatch 2
+    </button></li>
+    <li><button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#cyberpunk">
+      Cyberpunk 2077
+    </button></li>
+    <li><button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#thetwitcher">
+      The Twitcher 3
+    </button></li>
+    <li><button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#eldenring">
+      Elden Ring
+    </button></li>
+    <li><button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#subnautica">
+      Subnautica
+    </button></li>
+    <li><button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#lifeisstrange">
+      Life is strange
+    </button></li>
+    <li><button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#discoelsyium">
+      Disco Elsyium
+    </button></li>
+    <li><button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#sekiro">
+      Sekiro
+    </button></li>
+    <li><button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#fifa23">
+      FIFA 23
+    </button></li>
+    <li><button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#footballmanager">
+      Football Manager
+    </button></li>
+    <li><button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#pes">
+      PES(eFootball)
+    </button></li>
+    <li><button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#nba">
+      NBA 2K24
+    </button></li>
+    <li><button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#riders">
+      Riders Republic
+    </button></li>
+    <li><button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#steep">
+      Steep
+    </button></li>
+  </ul>
+</div>
+      </div>
+    </div>
+
+<!-- O'yin kartalari -->
+<div class="row mb-5 mt-5 ">
+    <!-- Counter Strike -->
+    <div class="col-6 col-sm-4 col-md-3 col-lg-2 game-card">
+        <div class="card card-hov" style="width: 11rem;">
+            <img src="./images/cs_logo.jpg" class="card-img-top game-img" alt="Counter Strike">
+            <div class="card-body">
+                <h3 class="game-title"><i>Counter Strike</i></h3>
+                <p class="card-text">Yaxshilangan o`q otish grafikasi, mexanika va immersiv oʻyin bilan taktik birlashuv.</p>
+
+                <div class="rating">
+                    <i class="bi bi-star-fill cus-icon"></i>
+                    <i class="bi bi-star-fill cus-icon"></i>
+                    <i class="bi bi-star-fill cus-icon"></i>
+                    <i class="bi bi-star-fill cus-icon"></i>
+                    <i class="bi bi-star-fill cus-icon"></i>
+                    <a href="https://www.counter-strike.net/cs2" target="_blank" class="p-3 fs-6 "><i class="bi bi-download"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Dota 2 -->
+    <div class="col-6 col-sm-4 col-md-3 col-lg-2 game-card">
+        <div class="card card-hov" style="width: 11rem;">
+            <img src="./images/dota_logo.jpg" class="card-img-top game-img" alt="Dota 2">
+            <div class="card-body">
+                <h3 class="game-title"><i>Dota 2</i></h3>
+                <p class="card-text">
+                  Dota 2 - bu raqobatbardosh esport sahnasiga ega strategik ko'p o'yinchi o'yini.</p>
+                <div class="rating">
+                    <i class="bi bi-star-fill cus-icon"></i>
+                    <i class="bi bi-star-fill cus-icon"></i>
+                    <i class="bi bi-star-fill cus-icon"></i>
+                    <i class="bi bi-star-fill cus-icon"></i>
+                    <i class="bi bi-star-fill cus-icon"></i>
+                    <a href="https://www.dota2.com/" target="_blank" class="p-3 fs-6"><i class="bi bi-download"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Valorant -->
+    <div class="col-6 col-sm-4 col-md-3 col-lg-2 game-card">
+        <div class="card card-hov" style="width: 11rem;">
+            <img src="./images/valorant.jpg" class="card-img-top game-img" alt="Valorant">
+            <div class="card-body">
+                <h3 class="game-title"><i>Valorant</i></h3>
+                <p class="card-text">aniq o'q otish va noyob agent qobiliyatlarini birlashtirgan taktik otishma.</p>
+                <div class="rating">
+                    <i class="bi bi-star-fill cus-icon"></i>
+                    <i class="bi bi-star-fill cus-icon"></i>
+                    <i class="bi bi-star-fill cus-icon"></i>
+                    <i class="bi bi-star-fill cus-icon"></i>
+                    <i class="bi bi-star-fill cus-icon"></i>
+                    <a href="https://playvalorant.com/" target="_blank" class="p-3 fs-6"><i class="bi bi-download"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- The Sims 4 -->
+    <div class="col-6 col-sm-4 col-md-3 col-lg-2 game-card">
+        <div class="card card-hov" style="width: 11rem;">
+            <img src="./images/sims4.jpg" class="card-img-top game-img" alt="The Sims 4">
+            <div class="card-body">
+                <h3 class="game-title"><i>The Sims 4</i></h3>
+                <p class="card-text">o'yinchilarga dinamik dunyolarda virtual hayotni sozlash va boshqarish imkonini.</p>
+                <div class="rating">
+                    <i class="bi bi-star-fill cus-icon"></i>
+                    <i class="bi bi-star-fill cus-icon"></i>
+                    <i class="bi bi-star-fill cus-icon"></i>
+                    <i class="bi bi-star-fill cus-icon"></i>
+                    <i class="bi bi-star-fill cus-icon"></i>
+                    <a href="https://www.ea.com/ru/games/the-sims/the-sims-4" target="_blank" class="p-3 fs-6"><i class="bi bi-download"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Overwatch 2 -->
+    <div class="col-6 col-sm-4 col-md-3 col-lg-2 game-card">
+        <div class="card card-hov" style="width: 11rem;">
+            <img src="./images/overwatch.jpg" class="card-img-top game-img" alt="Overwatch 2">
+            <div class="card-body">
+                <h3 class="game-title"><i>Overwatch 2</i></h3>
+                <p class="card-text">qahramonlar, dinamik xaritalar va kooperativ missiyalarga ega jamoaviy otishma.</p>
+                <div class="rating">
+                    <i class="bi bi-star-fill cus-icon"></i>
+                    <i class="bi bi-star-fill cus-icon"></i>
+                    <i class="bi bi-star-fill cus-icon"></i>
+                    <i class="bi bi-star-fill cus-icon"></i>
+                    <i class="bi bi-star-fill cus-icon"></i>
+                    <a href="https://overwatch.blizzard.com/" target="_blank" class="p-3 fs-6"><i class="bi bi-download"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cyberpunk 77 -->
+    <div class="col-6 col-sm-4 col-md-3 col-lg-2 game-card">
+        <div class="card card-hov" style="width: 11rem;">
+            <img src="./images/cyberpunk.avif" class="card-img-top game-img" alt="Cyberpunk 77">
+            <div class="card-body">
+                <h3 class="game-title"><i>Cyberpunk 77</i></h3>
+                <p class="card-text">Cyberpunk 2077 - bu futuristik, distopik tungi shaharda o'rnatilgan ochiq dunyo RPG.</p>
+                <div class="rating">
+                    <i class="bi bi-star-fill cus-icon"></i>
+                    <i class="bi bi-star-fill cus-icon"></i>
+                    <i class="bi bi-star-fill cus-icon"></i>
+                    <i class="bi bi-star-fill cus-icon"></i>
+                    <i class="bi bi-star-fill cus-icon"></i>
+                    <a href="https://store.steampowered.com/app/1091500/Cyberpunk_2077/" target="_blank" class="p-3 fs-6"><i class="bi bi-download"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+
+    <!-- Adventure section -->
+    <div class="row text-white ">
+      <div class="col-12 col-md-6 box-1 ">
+        <h1>Sarguzasht</h1>
+      </div>
+    </div>
+
+    <div class="row mb-5">
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2 game-card">
+        <div class="card card-hov" style="width: 11rem;">
+          <img src="./images/twitcher.webp" class="card-img-top game-img" alt="...">
+          <div class="card-body">
+            <h3 class="game-title"><i>The witcher 3</i></h3>
+            <p class="card-text">Witcher 3 - bu Geraltning fantaziya olami bo'ylab epik sayohatidan keyingi ochiq dunyo RPG.</p>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <a href="https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/ " target="_blank" class="p-3 fs-6"><i class="bi bi-download"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2  game-card">
+        <div class="card card-hov" style="width: 11rem;">
+          <img src="./images/elden.jpg" class="card-img-top game-img" alt="...">
+          <div class="card-body">
+            <h3 class="game-title"><i>Elden Ring</i></h3>
+            <p class="card-text">Elden Ring - bu keng, sirli fantaziya olamida o'rnatilgan ochiq dunyo harakatli RPG.</p>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <a href="https://store.steampowered.com/app/1245620/ELDEN_RING/" target="_blank" class="p-3 fs-6"><i class="bi bi-download"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2  game-card">
+        <div class="card card-hov" style="width: 11rem;">
+          <img src="./images/subnautica.webp" class="card-img-top game-img" alt="...">
+          <div class="card-body">
+            <h3 class="game-title"><i>Subnautica</i></h3>
+            <p class="card-text">suv ostida omon qolish o'yini bo'lib, unda o'yinchilar begona okean olamini kashf etadilar.</p>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <a href="https://store.steampowered.com/app/264710/Subnautica/" target="_blank" class="p-3 fs-6"><i class="bi bi-download"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2  game-card">
+        <div class="card card-hov" style="width: 11rem;">
+          <img src="./images/lifestrange.jpg" class="card-img-top game-img" alt="...">
+          <div class="card-body">
+            <h3 class="game-title"><i>Life is Strange</i></h3>
+            <p class="card-text">epizodik sarguzasht o'yini vaqtni manipulyatsiya va hissiyotlarni hikoya qilishga qaratilgan.</p>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <a href="https://lifeisstrange.square-enix-games.com/en-us" target="_blank" class="p-3 fs-6"><i class="bi bi-download"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2  game-card">
+        <div class="card card-hov" style="width: 11rem;">
+          <img src="./images/disco.png" class="card-img-top game-img" alt="...">
+          <div class="card-body">
+            <h3 class="game-title"><i>Disco Elysium</i></h3>
+            <p class="card-text">Disco Elysium - bu detektiv ish, dialog va shaxsiy tanlovlarga qaratilgan ochiq dunyo RPG.</p>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <a href="https://store.steampowered.com/app/632470/Disco_Elysium__The_Final_Cut/" target="_blank" class="p-3 fs-6"><i class="bi bi-download"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2  game-card">
+        <div class="card card-hov" style="width: 11rem;">
+          <img src="./images/sekiro.jpg" class="card-img-top game-img" alt="...">
+          <div class="card-body">
+            <h3 class="game-title"><i>Sekiro</i></h3>
+            <p class="card-text">Die Twice - bu feodal Yaponiyada o'rnatilgan sarguzashtli o'yin bo'lib, aniq jangga qaratilgan.</p>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <a href="https://store.steampowered.com/app/814380/Sekiro_Shadows_Die_Twice__GOTY_Edition/" target="_blank" class="p-3 fs-6"><i class="bi bi-download"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- Sports section -->
+    <div class="row text-white">
+      <div class="col-12 col-sm-4 col-md-6 col-lg-2 box-1 ">
+        <h1>Sport</h1>
+      </div>
+    </div>
+
+    <div class="row ">
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2 game-card">
+        <div class="card card-hov" style="width: 11rem;">
+          <img src="./images/fifa.avif" class="card-img-top game-img" alt="...">
+          <div class="card-body">
+            <h3 class="game-title"><i>Fifa 23</i></h3>
+            <p class="card-text">FIFA 23 – real o‘yin, jamoalar va o‘yin rejimlarini o‘z ichiga olgan futbol simulyatsiyasi o‘yini. yakuniy jamoa</p>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <a href="https://www.fifa.com/en" target="_blank" class="p-3 fs-6"><i class="bi bi-download"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2 game-card">
+        <div class="card card-hov" style="width: 11rem;">
+          <img src="./images/fmanager.png" class="card-img-top game-img" alt="...">
+          <div class="card-body">
+            <h3 class="game-title"><i>Foot manager</i></h3>
+            <p class="card-text">Football Manager - bu o'yinchilar futbol jamoasining strategiyasi va operatsiyalarini boshqaradigan sport simulyatsiyasi o'yini.</p>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <a href="https://www.footballmanager.com/" target="_blank" class="p-3 fs-6"><i class="bi bi-download"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2 game-card">
+        <div class="card card-hov" style="width: 11rem;">
+          <img src="./images/pes2.jpg" class="card-img-top game-img" alt="...">
+          <div class="card-body">
+            <h3 class="game-title"><i>Pes(eFootball)</i></h3>
+            <p class="card-text">eFootball (sobiq PES) – real oʻyin va onlayn raqobatga qaratilgan futbol simulyatsiyasi oʻyini.Hozirgi kunning trend simulyatori.</p>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <a href="https://efootballchampionship.konami.net/" target="_blank" class="p-3 fs-6"><i class="bi bi-download"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2 game-card">
+        <div class="card card-hov" style="width: 11rem;">
+          <img src="./images/nba.jpg" class="card-img-top game-img" alt="...">
+          <div class="card-body">
+            <h3 class="game-title"><i>NBA 2k24</i></h3>
+            <p class="card-text">NBA 2K24 - real o'yin, o'yinchini  sozlash, tanlash  va  martaba  rejimlarini  o'z ichiga  olgan  basketbol  simulyatsiyasi  o'yinidir.</p>
+            <i class="bi bi-star-fill cus-icon"></i> 
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <a href="https://nba.2k.com/2k24/" target="_blank" class="p-3 fs-6"><i class="bi bi-download"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2 game-card ">
+        <div class="card card-hov" style="width: 11rem;">
+          <img src="./images/riders.jpg" class="card-img-top game-img" alt="...">
+          <div class="card-body">
+            <h3 class="game-title"><i>R's Republic</i></h3>
+            <p class="card-text">Riders Republic - bu ekstremal sport o'yini bo'lib, unda o'yinchilar turli xil, ochiq dunyo muammolarida raqobatlashadilar.</p>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <a href="https://ubisoft.com/en-gb/game/riders-republic" target="_blank" class="p-3 fs-6"><i class="bi bi-download"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2 game-card ">
+        <div class="card card-hov" style="width: 11rem;">
+          <img src="./images/steep.avif" class="card-img-top game-img" alt="...">
+          <div class="card-body">
+            <h3 class="game-title"><i>Steep</i></h3>
+            <p class="card-text">ochiq dunyo ekstremal sport o'yini bo'lib, chang'i, snoubord va qanot kostyumlari bilan keng landshaftlar bo'ylab yurish imkonini beradi.</p>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <i class="bi bi-star-fill cus-icon"></i>
+            <a href="https://www.ubisoft.com/en-gb/game/steep" target="_blank" class="p-3 fs-6"><i class="bi bi-download"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+
+
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel"><i>Counter Strike 2</i></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Counter-Strike 2 (CS2) kuchli Source 2 dvigatelida qurilgan mashhur Counter-Strike seriyasining so‘nggi qismidir. O'zining taktik o'yini bilan mashhur CS2 tezroq javob vaqtlari va silliq o'yin bilan bir qatorda yaxshilangan grafikalar, fizika va xarita dizaynlarini taklif etadi. O'yinchilar 5v5 shiddatli o'yinlarda terrorchilar yoki aksilterrorchilar, bomba qo'yish yoki zararsizlantirish yoki garovga olinganlarni qutqarishda qatnashadilar. Kengaytirilgan vizuallar, yangi xaritalar va yangilangan raqobat sahnasi bilan CS2 uzoq vaqtdan beri ishqibozlar uchun nostalji va yangi kelganlar uchun hayajonni taqdim etishni va'da qiladi.      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Yopish</button>
+        <button type="button" class="btn btn-primary">Tushunarli</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="dota2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel"><i>Dota 2</i></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Dota 2 - bu Valve tomonidan ishlab chiqilgan ko'p o'yinchi onlayn jang maydoni (MOBA) o'yini. Bu eng mashhur va raqobatbardosh esport unvonlaridan biri bo'lib, unda besh o'yinchidan iborat ikkita jamoa mavjud bo'lib, ularning har biri o'ziga xos qobiliyatga ega noyob qahramonni boshqaradi. Maqsad, o'zingiznikini himoya qilgan holda, ularning bazasida joylashgan dushmanning Ancientini yo'q qilishdir. Dota 2 o'zining chuqur strategiyasi, murakkab o'yin mexanikasi va 100 dan ortiq qahramonlarning keng ro'yxati bilan mashhur. O'yin muntazam yangilanishlar, yangi qahramonlar va The International kabi xalqaro turnirlarni taqdim etadi, bunda eng yaxshi jamoalar millionlab pul mukofotlari uchun kurashadilar.      </div>      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Yopish</button>
+        <button type="button" class="btn btn-primary">Tushunarli
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="volarant" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel"><i>Volarant</i></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Valorant - bu Riot Games tomonidan ishlab chiqilgan taktik birinchi shaxs otishma (FPS). 2020-yilda chiqarilgan oʻyin strategik, jamoaviy oʻyinni aniq otish mexanikasi bilan uygʻunlashtiradi. O'yinchilar turli xil "Agentlar" ro'yxatidan tanlaydilar, ularning har biri an'anaviy qurol o'ynashdan tashqari o'yinni yaxshilaydigan noyob qobiliyatlarga ega. Besh kishilik jamoalar maqsadli o'yinlarda to'qnash kelishadi, odatda bomba o'rnatish/zararsizlantirish yoki raqib jamoani yo'q qilish. Valorantning jamoaviy ish, strategiya va qurol mexanikasiga urg'u berishi uni raqobatbardosh o'yin va muntazam yangilanishlar bilan esport sahnasida juda mashhur unvonga aylantirdi.      </div>      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Yopish</button>
+        <button type="button" class="btn btn-primary">Tushunarli</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="thesims" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel"><i>The Sims 4</i></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Sims 4 - Maxis tomonidan ishlab chiqilgan va Electronic Arts tomonidan nashr etilgan hayotni simulyatsiya qiluvchi video o'yin. 2014-yilda chiqarilgan bu The Sims seriyasining bir qismi boʻlib, oʻyinchilar oʻzlarining kundalik hayoti davomida virtual belgilarni (Sims) yaratadilar va boshqaradilar. O'yinchilar uylarni loyihalashlari, munosabatlar o'rnatishlari, martaba izlashlari va nikoh, ota-onalik va qarish kabi turli hayotiy voqealarni o'rganishlari mumkin. O'yinda sozlanishi mumkin bo'lgan Sims, o'ziga xos shaxslar, keng ko'lamli kengaytirilgan to'plamlar va yangi xususiyatlar, joylar va o'yin variantlarini qo'shadigan yuklab olinadigan kontent mavjud. Sims 4 katta hamjamiyatga ega bo'lib, o'yinchilar o'z ijodlari va hikoyalarini Internetda tez-tez baham ko'rishadi.      </div>      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Yopish</button>
+        <button type="button" class="btn btn-primary">Tushunarli</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="overwatch" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel"><i>Overwatch 2</i></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Overwatch 2 - bu Blizzard Entertainment tomonidan ishlab chiqilgan va 2022-yilda mashhur Overwatch (2016) o‘yinining davomi sifatida chiqarilgan jamoaviy birinchi shaxs otishmasidir. U yangi xaritalar, qahramonlar va oʻyin rejimlarini taqdim etadi, shu bilan birga oʻyin jarayonini 6v6 oʻrniga 5v5 oʻyinlarga qaratadi. Overwatch 2 qahramonning rivojlanishiga alohida e'tibor beradi, har bir qahramon o'ziga xos qobiliyat va o'yin uslublariga ega. O‘yinda yangi “Push” rejimi ham mavjud bo‘lib, u yerda jamoalar robotni boshqarish va uni dushman tomoniga surish uchun poygalashadi. Overwatch 2 terilar, emotlar va boshqa kosmetika vositalarini qulfdan chiqarish uchun mavsumiy jangovar o'tish tizimiga ega bepul o'ynaladigan modelga ega. O'yin muntazam yangilanishlar va voqealar bilan rivojlanishda davom etmoqda.    </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Yopish</button>
+        <button type="button" class="btn btn-primary">Tushunarli</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="cyberpunk" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel"><i>Cyberpunk 2077</i></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Cyberpunk 2077 – CD Projekt Red tomonidan ishlab chiqilgan, 2020-yil dekabr oyida chiqarilgan ochiq dunyo jangovar rolli o‘yin. Distopik tungi shaharda o‘rnatilgan o‘yin o‘yinchilarni ilg‘or texnologiyalar, kibernetik takomillashtirish va keng tarqalgan jinoyatlar bilan to‘ldirilgan futuristik dunyoga cho‘mdiradi. O'yinchilar Kianu Rivz tomonidan aytilgan Jonni Silverhand ismli afsonaviy rokerboyning raqamli sharpasini ushlab turadigan sirli implant ortidagi haqiqatni ochishga intiladigan sozlanishi mumkin bo'lgan personaj V rolini o'ynashadi. O'yin dinamik hikoya, bir nechta o'yin uslublari va keng qamrovli kashfiyotlarni o'z ichiga oladi, asosiy e'tibor jangovar, xakerlik va dialog tanlovlariga qaratilgan. Qattiq ishga tushirilganiga qaramay, Cyberpunk 2077 sezilarli yangilanishlar va yaxshilanishlarni oldi, bu esa uni yanada nozik tajribaga aylantirdi.      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Yopish</button>
+        <button type="button" class="btn btn-primary">Tushunarli</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="thetwitcher" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel"><i>The witcher 3</i></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        The Witcher 3: Wild Hunt – CD Projekt Red tomonidan ishlab chiqilgan, 2015-yilning may oyida chiqarilgan rolli o‘yin. Bu Anjey Sapkovskining kitoblar seriyasiga asoslangan The Witcher seriyasining uchinchi qismidir. O'yinchilar Riviyalik Geraltni, jodugar sifatida tanilgan yirtqich hayvon ovchisini boshqaradi, u sirli yovvoyi ov tomonidan ovlanayotgan asrab olingan qizi Cirini topishga kirishadi. O'yin keng, ochiq dunyoda joylashgan bo'lib, batafsil muhitlar, murakkab belgilar va bir nechta yakunlarni taklif qiluvchi tarvaqaylab ketgan rivoyatlarga boy. Bu o'yin davomida qilingan tanlovlar muhim oqibatlarga olib keladigan jangovar, kashfiyot va qaror qabul qilish aralashmasini o'z ichiga oladi. Hamma zamonlarning eng zo'r video o'yinlaridan biri sifatida e'tirof etilgan The Witcher 3 o'zining hikoyalari, dunyoni yaratish va o'yin mexanikasi uchun ko'plab mukofotlarga sazovor bo'ldi. Shuningdek, u ikkita asosiy kengaytmaga ega edi: "Hearts of Stone" va "Qon va sharob" o'yinga yanada mazmun va chuqurlik qo'shdi.      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Yopish</button>
+        <button type="button" class="btn btn-primary">Tushunarli</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="eldenring" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel"><i>Elden Ring</i></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Elden Ring – FromSoftware tomonidan ishlab chiqilgan va Bandai Namco Entertainment tomonidan nashr etilgan, 2022-yil fevral oyida chiqarilgan rolli rolli oʻyin. Oʻyin “Dark Souls” turkumi yaratuvchisi Hidetaka Miyazaki rejissyori boʻlib, “Muz va olov qoʻshigʻi” bilan hamkorlik qiladi. muallif Jorj R. R. Martin, o'yin haqidagi bilim va dunyoni yaratishga yordam bergan.
+
+        Lands Betweendagi keng va ochiq dunyoda joylashgan Elden Ring o'yinchilarga qiyin dushmanlar, kuchli boshliqlar va chuqur, bir-biriga bog'liq bo'lgan bilimlar bilan to'ldirilgan singan, sirli dunyoni kashf qilish imkonini beradi. O'yinchilar qoralanganni boshqaradilar, bu qahramon Elden Lordi bo'lish uchun parchalanib ketgan Elden Ringni izlaydi. O'yin o'zining murakkab dunyo dizayni, jazolash qiyinligi va kashfiyot erkinligi bilan mashhur bo'lib, o'yinchilarni kaltaklangan yo'ldan ketishga undaydi.
+        
+        Boy fantaziya muhiti, dinamik jangovar va xarakter yaratishning ko'plab variantlari bilan Elden Ring o'zining hikoyalari, o'yin o'yinlari va ochiq dunyo tajribasi uchun keng e'tirofga sazovor bo'ldi. U 2020-yillarning eng yaxshi oʻyinlaridan biri sanaladi va bir nechta “Yil oʻyini” mukofotlarini qoʻlga kiritdi.     </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Yopish</button>
+        <button type="button" class="btn btn-primary">Tushunarli</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="subnautica" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel"><i>Subnautica</i></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Subnautica - bu Unknown Worlds Entertainment tomonidan ishlab chiqilgan va nashr etilgan ochiq dunyoda omon qolish uchun o'yin-sarguzasht o'yini. 2014-yilda erta kirishda chiqarilgan va 2018-yilda toʻliq ishga tushirilgan oʻyin uzoq kelajakda boʻlib oʻtadi, u yerda oʻyinchilar oʻzlarining kosmik kemasi “Aurora” okean bilan qoplangan sayyoraga qulaganidan soʻng begona suv osti dunyosini oʻrganishadi.
+
+        Subnautica maqsadi - resurslarni to'plash, asboblarni yaratish va yashash joylarini qurish orqali omon qolish, kashf qilish va oxir-oqibat sayyoradan qochishdir. O'yinchilar xavfli mavjudotlar, yashirin sirlar va qimmatbaho manbalar bilan to'ldirilgan sirli muhitni ochib, bepoyon, chiroyli tasvirlangan okeanlarga sho'ng'ishadi. Ular chuqurroq kashf etar ekanlar, ular dushman dengiz jonzotlaridan tortib suvsizlanish va ochlik tahdidigacha borgan sari ortib borayotgan xavf-xatarlarga duch kelishadi.
+        
+        O'yin kashfiyot orqali ochiladigan boy hikoyani o'z ichiga oladi, o'yinchilar jurnallar, ma'lumotlar maydonchalari va boshqa tadqiqotchilar tomonidan qoldirilgan artefaktlarni topadilar. U o'zining atmosfera dunyosini yaratishi, jozibali o'yin mexanikasi va ajoyib suv osti tasvirlari uchun maqtovga sazovor bo'ldi. Subnautica, shuningdek, Subnautica: Below Zero nomli davomi ham bor, u yangi hududlarni o'rganadi va omon qolish uchun yangi muammolarni taqdim etadi.      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Yopish</button>
+        <button type="button" class="btn btn-primary">Tushunarli</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="lifeisstrange" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel"><i>Life is Strange</i></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Life is Strange - bu Dontnod Entertainment tomonidan ishlab chiqilgan va Square Enix tomonidan nashr etilgan epizodik grafik sarguzasht o'yini. Dastlab 2015-yilda chiqarilgan, u vaqtni orqaga qaytarish qobiliyatiga ega ekanligini kashf etgan Blekvell akademiyasining fotografiya talabasi Maks Kolfildning hikoyasini davom ettiradi. O'yin Oregon shtatidagi Arkadiya ko'rfazidagi xayoliy shaharchada bo'lib o'tadi va Maksning do'stlik, sevgi va uning yangi kuchlarining oqibatlarini engish uchun qilgan harakatlariga qaratilgan.
+
+        Hikoya beshta epizoddan iborat bo'lib, o'yinchilar hikoyani shakllantiradigan qarorlar qabul qilishadi va bu tanlovlarning oqibatlari ko'pincha o'yinda keyinroq aks etadi. Sayohat davomida Maks o'z shahri atrofidagi sirlarni, shu jumladan yo'qolgan talabani va uning vakolatlari bilan bog'liq bo'lishi mumkin bo'lgan g'alati hodisalarni ochishga harakat qiladi. O'yin ruhiy salomatlik, o'ziga xoslik va tanlovlarning ta'siri kabi mavzular bilan shug'ullanadigan hissiy chuqurligi bilan mashhur.
+        
+        "Hayot g'alati" hikoyasi, xarakter rivojlanishi va qiyin, haqiqiy muammolarni hal qilish usuli bilan keng tan olingan. Uning muvaffaqiyati prequel va davom filmlarining, jumladan, Life is Strange: Before the Storm va Life is Strange 2. Remastered versiyasi ham 2022-yilda chiqarilgan bo‘lib, grafik va o‘yin o‘yini yaxshilangan yangilangan.      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Yopish</button>
+        <button type="button" class="btn btn-primary">Tushunarli</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="discoelsyium" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel"><i>Disco Elysium</i></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+        Disco Elysium - bu ZA/UM tomonidan ishlab chiqilgan, tanqidchilar tomonidan e'tirof etilgan rolli o'yin. 2019-yilda chiqarilgan, distopik shaharda qotillikni tergov qilayotgan notinch detektiv haqida. O'yin jangga emas, balki dialogga, qaror qabul qilishga va xarakterni rivojlantirishga qaratilgan. O'yinchilar o'zaro ta'sirlar va natijalarga ta'sir qiluvchi turli ko'nikmalar va xususiyatlarni tanlash orqali qahramonning shaxsiyatini shakllantiradilar. O'zining chuqur hikoyasi, falsafiy mavzulari va o'ziga xos badiiy uslubi bilan tanilgan Disco Elysium ko'plab mukofotlarni qo'lga kiritdi va o'zining murakkab hikoyalari va xarakterga asoslangan o'yini bilan mashhur.      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Yopish</button>
+        <button type="button" class="btn btn-primary">Tushunarli</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="sekiro" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel"><i>Sekiro</i></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Sekiro: Shadows Die Twice – bu FromSoftware tomonidan ishlab chiqilgan va 2019-yilda chiqarilgan sarguzashtli o‘yin. 1500-yillarning oxirlarida Yaponiyada qayta ishlangan, o‘yinchilar o‘g‘irlab ketilgan lordni qutqarish va uning dushmanlaridan qasos olish uchun Bo‘ri ismli shinobini boshqaradi. O'yin aniq jang, ayyorlik va kashfiyotga urg'u beradi. FromSoftware-ning boshqa nomlaridan farqli o'laroq, Sekiro ko'proq tajovuzkor, mahoratga asoslangan jangovar tizimga e'tibor qaratadi, bu vaqtni belgilash va o'chirishga katta e'tibor beradi. Uning qiyin qiyinchiliklari, boy hikoyalari va ajoyib vizualligi uni tanqidchilar e'tirofiga sazovor bo'ldi va The Game Awards 2019 da "Yilning eng yaxshi o'yini"ni qo'lga kiritdi..      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Yopish</button>
+        <button type="button" class="btn btn-primary">Tushunarli</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="fifa23" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel"><i>Fifa 23</i></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        FIFA 23 - EA Sports tomonidan ishlab chiqilgan mashhur futbol simulyatsiyasi video o'yinlari seriyasining so'nggi qismi. 2022 yilda chiqarilgan bu EA va FIFA o'rtasidagi uzoq yillik hamkorlikdagi so'nggi o'yinni anglatadi. Haqiqiy o'yin, yaxshilangan grafika va jamoalar, o'yinchilar va ligalarning keng ro'yxatiga ega FIFA 23 bir o'yinchi va ko'p o'yinchi rejimlarini, jumladan, martaba rejimi, yakuniy jamoa va onlayn o'yinni taklif etadi. O'yin HyperMotion2 texnologiyasi kabi yangi mexanikani taqdim etadi, o'yinchilarning harakatlari va animatsiyalarini yaxshilaydi. Shuningdek, u erkaklar va ayollar o'rtasidagi jahon chempionatlarini o'z ichiga oladi, bu esa uni global futbol bayramiga aylantiradi.     </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Yopish</button>
+        <button type="button" class="btn btn-primary">Tushunarli</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="footballmanager" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel"><i>Football manager</i></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Football Manager - Sports Interactive tomonidan ishlab chiqilgan mashhur sport simulyatsiyasi video o'yinlari seriyasidir. Bu o'yinchilarga futbol jamoasi menejeri rolini o'ynash, taktika, transferlar, mashg'ulotlar va boshqalar haqida qaror qabul qilish imkonini beradi. O'yinda butun dunyo bo'ylab haqiqiy hayotdagi ligalar, jamoalar va o'yinchilar mavjud bo'lib, ular juda batafsil va chuqur tajribani taklif qiladi. O'yinchilar o'zlari tanlagan klubni muvaffaqiyat sari yo'l-yo'riq ko'rsatishi, maydondagi strategiyalari va maydondan tashqari boshqaruvni muvozanatlashi mumkin. Chuqur mexanikasi va keng ma'lumotlar bazasi bilan Football Manager klubning kundalik faoliyatini boshqarish qiyinligini yoqtiradigan futbol ishqibozlari orasida sevimli hisoblanadi.      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Yopish</button>
+        <button type="button" class="btn btn-primary">Tushunarli</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="pes" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel"><i>Pes(eFootball)</i></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        PES (Pro Evolution Soccer) / eFootball - Konami tomonidan ishlab chiqilgan mashhur futbol video o'yinlari seriyasidir. U o'yinchining suyuq harakatlariga, taktik chuqurlikka va to'pning aniq fizikasiga katta e'tibor berib, real o'yinni taqdim etishga qaratilgan. Dastlab Pro Evolution Soccer nomi bilan tanilgan, 2021-yildan boshlab eFootball-ga o‘zgartirilib, bepul o‘ynash modeliga o‘tdi. O'yinda litsenziyalangan jamoalar, stadionlar va o'yinchilar mavjud, garchi u raqobatchisi FIFAga nisbatan kamroq rasmiy litsenziyalarga ega bo'lishi bilan mashhur. PES/eFootball o'zining taktik realizmi va aniq o'yini uchun sevimli bo'lib, simulyatsiyaga yo'naltirilgan futbol tajribasini qadrlaydigan muxlislarni jalb qiladi.     </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Yopish</button>
+        <button type="button" class="btn btn-primary">Tushunarli</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="nba" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel"><i>NBA 2k24</i></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        NBA 2K24 - Visual Concepts tomonidan ishlab chiqilgan va 2K Sports tomonidan nashr etilgan NBA 2K seriyasining so'nggi qismi. Haqiqiy grafikalar, o'yin va o'yinchilarning harakatlari bilan yuqori darajadagi basketbol tajribasini taqdim etadi. O'yinda bitta o'yinchi va ko'p o'yinchi rejimlari, jumladan mashhur MyCareer, MyTeam va onlayn o'yin mavjud. NBA 2K24 yangilangan roʻyxatlar, yangi oʻyinchilar animatsiyalari va takomillashtirilgan AIni oʻz ichiga oladi. O'yin, shuningdek, kengaytirilgan martaba rejimlari, kengaytirilgan sozlash imkoniyatlari va yaxshi onlayn ulanish kabi yangi xususiyatlarni taqdim etadi. U o'zining tafsilotlari va chuqurligiga bo'lgan e'tibori bilan mashhur bo'lib, uni basketbol ishqibozlari uchun asosiy tanlovga aylantiradi.s.      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Yopish</button>
+        <button type="button" class="btn btn-primary">Tushunarli</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="riders" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel"><i>Riders Republic</i></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+        Riders Republic - Ubisoft Annecy tomonidan ishlab chiqilgan ekstremal sport video o'yini. Bu o'yinchilarga turli xil hayajonli ochiq sport turlarida, jumladan chang'i, snoubord, tog 'velosipedi va qanot kostyumi kabi ochiq dunyoda, ko'p o'yinchi muhitida qatnashish imkonini beradi. AQShdagi mashhur milliy bog'larda o'rnatilgan o'yin o'yinchilar birlashishlari yoki tartibsiz, keng ko'lamli tadbirlarda raqobatlasha oladigan katta o'yin maydonchasini taklif etadi. O'yin-kulgi va erkinlikka e'tibor qaratgan Riders Republic real sport mexanikasini haddan tashqari yuqori, harakatga to'la atmosfera bilan birlashtiradi. O'yin shuningdek, xarakterlarni sozlash, progressiv tizimlar va o'yinchilarning o'zaro muloqot qilishlari uchun jonli ijtimoiy markazga ega.      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Yopish</button>
+        <button type="button" class="btn btn-primary">Tushunarli</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="steep" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel"><i>Steep</i></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Steep - Ubisoft Annecy tomonidan ishlab chiqilgan ochiq dunyo ekstremal sport o'yini. Alp tog'lari va Alyaskaning qorli tog'larida joylashgan o'yin o'yinchilarga turli xil qishki sport turlarini, jumladan chang'i, snoubord, qanotli uchish va paraplanda uchish imkonini beradi. O'yinchilar bemalol keng landshaftlarni o'rganishlari, muammolarni hal qilishlari va onlayn musobaqalarda qatnashishlari mumkin. O'yin suyuqlik harakati, hayajonli manzaralar va tog'larni ijodiy yo'llar bilan engish erkinligini ta'kidlaydi. Qidiruv va adrenalin bilan to'ldirilgan o'yinga e'tibor qaratgan Steep ijtimoiy va raqobatbardosh ustunlikka ega noyob qishki sport tajribasini taklif etadi.      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Yopish</button>
+        <button type="button" class="btn btn-primary">Tushunarli</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+</div>
+
+<!-- Members -->
+  <div class="members-back">
+    <div class="container" id="members">
+      <div class="row text-white">
+        <div class="col text-center mt-5 head-member">
+          <H1 class="members-heading">Klub a`zolari</H1>
+        </div>
+      </div>
+
+      <section class="reviews " id="reviews">
+        <div class="container reviews-container mt-5">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-4 mb-5 mb-md-4">
+                    <h2>A'zolarimizdan sizga hikoyalar</h2>
+                    <p style="font-size: 20px;">
+                        Olim, Doktor, O'qituvchi, Rassom, Harbiy xizmatchilar bizning a'zomiz, NEGA SIZ EMAS?!
+                    </p>
+                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" >
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="./images/nemat-post.jpg" class="d-block w-100 rounded mb-3" alt="member comment1" style="width: 10px; height: 550px;">
+                          <h3>Nematullo</h3>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./images/Xasan-post.jpg" class="d-block w-100 rounded mb-3" alt="member comment2" style="width: 10px; height: 550px;">
+                          <h3>Xasan</h3>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./images/abdulaziz-post.jpg" class="d-block w-100 rounded mb-3" alt="member comment2" style="width: 10px; height: 550px;">
+                          <h3>Abdulaziz</h3>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./images/xondamir-post.png" class="d-block w-100 rounded mb-3" alt="member comment3" style="width: 10px; height: 550px;">
+                          <h3>Xondamir</h3>
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-10 col-lg-4  ">
+                  <h1>Direktorlar</h1>
+                    <div class="carousel slide" id="carouselexampleslide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <!--carousel 1-->
+                            <div class="carousel-item active">
+                                <div>
+                                    <p style="font-size: 25px;">
+                                        Yusufjon Tolibjonov, bosh direktor. U kompaniyadagi eng yuqori martabali boshqaruvchi va
+                                        muhim korporativ qarorlar qabul qilish, umumiy operatsiyalarni boshqarish uchun javobgar
+                                         va direktorlar kengashi va korporativ operatsiyalar o'rtasidagi aloqaning asosiy nuqtasi sifatida ishlaydi. 
+                                    </p>
+                                </div>
+                                <div class="d-flex align-items-center mt-4">
+                                    <img src="./images/yusufjon.jpg" alt=""  style="width: 80px;" class="rounded-circle">
+                                    <div class="ps-2">
+                                        <p class="mb-1">
+                                          <h5><strong>Yusufjon 시</strong></h5>
+                                        </p>
+                                        <p class="mb-0 ">
+                                            Bosh direktor
+                                            <a href="#" class="text-decoration-none ">Anfield Arena</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/Carousel 1-->
+
+                            <!--Carousel 2-->
+                            <div class="carousel-item">
+                                <div>
+                                    <p style="font-size: 25px;">
+                                        Azim Norqulov, texnik direktor. U kompaniyaning texnologik yo'nalishiga rahbarlik qiladi. 
+                                        U texnologiya va dasturiy ta'minotni ishlab chiqish va to'g'ri joriy etilishini nazorat qiladi, 
+                                        ko'pincha texnik guruhni boshqaradi. U kompaniyaning texnologik strategiyasi biznes maqsadlariga mos kelishini ta'minlaydi.
+                                    </p>
+                                </div>
+                                <div class="d-flex align-items-center mt-4">
+                                    <img src="./images/azim.jpg" alt="" style="width: 80px;" class="rounded-circle">
+                                    <div class="ps-2">
+                                        <p class="mb-1">
+                                            <h5><strong>Azim 시</strong></h5>
+                                        </p>
+                                        <p class="mb-0 text-seconadary">
+                                            CTO 
+                                            <a href="#" class="text-decoration-none">Anfield Arena</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/Carousel 2-->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row text-white">
+              <div class="col text-center mt-5 ">
+                <H1 class="members-heading">Faol a'zolar 
+                  <i class="bi bi-person-circle"></i>
+                </H1>
+              </div>
+            </div>
+            <!-- active members birinchi qatori -->
+            <div class="row justify-content-center">
+              <div class="col-12 col-sm-8 col-md-8 col-lg-6">
+
+                <div class="card mb-3 members-card-back active-members-pointer glow-box" style="max-width: 600px;">
+                  <div class="row g-0">
+                    <div class="col-md-4 ">
+                      <img src="./images/yusufjon-card.jpg" class="img-fluid rounded active-members-pointer" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body ">
+                        <h2 class="card-title active-members-pointer text-white">Yusufjon <i class="bi bi-person-lines-fill"></i></h2>
+                        <h5 class="active-members-pointer text-warning">
+                            Yosh: <p class=" d-inline" style="color: white;">18</p>
+                        </h5>
+                        <h5 class=" active-members-pointer text-warning">Taxallus:<p class=" d-inline" style="color: white;"><i>M5</i></p></h5>
+                        <h5 class=" active-members-pointer text-warning">Sevimli o'yinlar:<p class=" d-inline" style="color: white;">cs2, pes, fifa</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Haftada o'yin soatlari: <p class=" d-inline" style="color: white;">15 soat</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Qo'shilgan sana: <p class=" d-inline" style="color: white;">01.09.2024</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Hozirgi jamoa: <p class=" d-inline" style="color: white;">Aut e40-b</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Manzil: <p class=" d-inline" style="color: white;">Samarqand</p></h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="col-12 col-sm-8 col-md-8 col-lg-6">
+
+                <div class="card mb-3 members-card-back active-members-pointer glow-box" style="max-width: 600px;">
+                  <div class="row g-0">
+                    <div class="col-md-4 ">
+                      <img src="./images/xondamir-card.jpg" class="img-fluid rounded active-members-pointer" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body ">
+                        <h2 class="card-title active-members-pointer text-white">Xondamir <i class="bi bi-person-lines-fill"></i></h2>
+                        <h5 class="active-members-pointer text-warning">
+                            Yosh: <p class=" d-inline" style="color: white;">19</p>
+                        </h5>
+                        <h5 class=" active-members-pointer text-warning">Taxallus:<p class=" d-inline" style="color: white;"><i>Blacksword</i></p></h5>
+                        <h5 class=" active-members-pointer text-warning">sevimli o`yinlar:<p class=" d-inline" style="color: white;">cs2, pes, gta 5</p></h5>
+                        <h5 class=" active-members-pointer text-warning">haftada o`yin soatlari: <p class=" d-inline" style="color: white;">12 soat</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Qo'shilgan sana: <p class=" d-inline" style="color: white;">20.10.2024</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Hozirgi jamoa: <p class=" d-inline" style="color: white;">Aut e40-b</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Manzil: <p class=" d-inline" style="color: white;">toshkent</p></h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            <div class="row justify-content-center">
+              <div class="col-12 col-sm-8 col-md-8 col-lg-6">
+
+                <div class="card mb-3 members-card-back active-members-pointer glow-box" style="max-width: 600px;">
+                  <div class="row g-0">
+                    <div class="col-md-4 ">
+                      <img src="./images/azim-card.jpg" class="img-fluid rounded active-members-pointer" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body ">
+                        <h2 class="card-title active-members-pointer text-white">Azim <i class="bi bi-person-lines-fill"></i></h2>
+                        <h5 class="active-members-pointer text-warning">
+                            Yosh: <p class=" d-inline" style="color: white;">19</p>
+                        </h5>
+                        <h5 class=" active-members-pointer text-warning">Taxallus:<p class=" d-inline" style="color: white;"><i>Temurlan</i></p></h5>
+                        <h5 class=" active-members-pointer text-warning">sevimli o`yinlar:<p class=" d-inline" style="color: white;">cs2, gta 5, fifa</p></h5>
+                        <h5 class=" active-members-pointer text-warning">haftada o`yin soatlari: <p class=" d-inline" style="color: white;">21 soat</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Qo'shilgan sana: <p class=" d-inline" style="color: white;">15.09.2024</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Hozirgi jamoa: <p class=" d-inline" style="color: white;">Aut e40-b</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Manzil: <p class=" d-inline" style="color: white;">Samarqand</p></h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="col-12 col-sm-8 col-md-8 col-lg-6">
+
+                <div class="card mb-3 members-card-back active-members-pointer glow-box" style="max-width: 600px;">
+                  <div class="row g-0">
+                    <div class="col-md-4 ">
+                      <img src="./images/abdulaziz-card.jpg" class="img-fluid rounded active-members-pointer" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body ">
+                        <h2 class="card-title active-members-pointer text-white" >Abdulaziz <i class="bi bi-person-lines-fill"></i></h2>
+                        <h5 class="active-members-pointer text-warning">
+                            Yosh:: <p class=" d-inline" style="color: white;">19</p>
+                        </h5>
+                        <h5 class=" active-members-pointer text-warning">Taxallus:<p class=" d-inline" style="color: white;"><i>Tsumaki</i></p></h5>
+                        <h5 class=" active-members-pointer text-warning">sevimli o`yinlar:<p class=" d-inline" style="color: white;">cs2, league of legends</p></h5>
+                        <h5 class=" active-members-pointer text-warning">haftada o`yin soatlari: <p class=" d-inline" style="color: white;">16 soat</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Qo'shilgan sana: <p class=" d-inline" style="color: white;">28.09.2024</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Hozirgi jamoa: <p class=" d-inline" style="color: white;">Aut e40-b</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Manzil: <p class=" d-inline" style="color: white;">Toshkent</p></h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              
+            </div>
+            
+
+            <div class="row justify-content-center">
+              <div class="col-12 col-sm-8 col-md-8 col-lg-6">
+
+                <div class="card mb-3 members-card-back active-members-pointer glow-box " style="max-width: 600px;">
+                  <div class="row g-0">
+                    <div class="col-md-4 ">
+                      <img src="./images/nemat-card.jpg" class="img-fluid rounded active-members-pointer" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body ">
+                        <h2 class="card-title active-members-pointer text-white">Ne'matullo <i class="bi bi-person-lines-fill"></i></h2>
+                        <h5 class="active-members-pointer text-warning">
+                            Yosh: <p class=" d-inline" style="color: white;">19</p>
+                        </h5>
+                        <h5 class=" active-members-pointer text-warning">Taxallus:<p class=" d-inline" style="color: white;"><i>telegram</i></p></h5>
+                        <h5 class=" active-members-pointer text-warning">sevimli o`yinlar:<p class=" d-inline" style="color: white;">cs2</p></h5>
+                        <h5 class=" active-members-pointer text-warning">haftada o`yin soatlari: <p class=" d-inline" style="color: white;">18 soat</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Qo'shilgan sana: <p class=" d-inline" style="color: white;">22.09.2024</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Hozirgi jamoa: <p class=" d-inline" style="color: white;">Aut e40-b</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Manzil: <p class=" d-inline" style="color: white;">Andijon</p></h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="col-12 col-sm-8 col-md-8 col-lg-6">
+
+                <div class="card mb-3 members-card-back active-members-pointer glow-box" style="max-width: 600px;">
+                  <div class="row g-0">
+                    <div class="col-md-4 ">
+                      <img src="./images/nazar-card.jpg" class="img-fluid rounded active-members-pointer" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body ">
+                        <h2 class="card-title active-members-pointer text-white">Nazarbek <i class="bi bi-person-lines-fill"></i></h2>
+                        <h5 class="active-members-pointer text-warning">
+                            Yosh: <p class=" d-inline" style="color: white;">19</p>
+                        </h5>
+                        <h5 class=" active-members-pointer text-warning">Taxallus:<p class=" d-inline" style="color: white;"><i>rak</i></p></h5>
+                        <h5 class=" active-members-pointer text-warning">sevimli o`yinlar:<p class=" d-inline" style="color: white;">cs2, dota 2, volarant</p></h5>
+                        <h5 class=" active-members-pointer text-warning">haftada o`yin soatlari: <p class=" d-inline" style="color: white;">14 soat</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Qo'shilgan sana: <p class=" d-inline" style="color: white;">20.09.2024</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Hozirgi jamoa: <p class=" d-inline" style="color: white;">Aut e40-b</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Manzil: <p class=" d-inline" style="color: white;">toshkent</p></h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              
+            </div>
+
+            <div class="row justify-content-center">
+              <div class="col-12 col-sm-8 col-md-8 col-lg-6">
+
+                <div class="card mb-3 members-card-back active-members-pointer glow-box" style="max-width: 600px;">
+                  <div class="row g-0">
+                    <div class="col-md-4 ">
+                      <img src="./images/shamshod-card.jpg" class="img-fluid rounded active-members-pointer" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body ">
+                        <h2 class="card-title active-members-pointer text-white">Shamshod<i class="bi bi-person-lines-fill"></i></h2>
+                        <h5 class="active-members-pointer text-warning">
+                            Yosh: <p class=" d-inline" style="color: white;">19</p>
+                        </h5>
+                        <h5 class=" active-members-pointer text-warning">Taxallus:<p class=" d-inline" style="color: white;"><i>sham1k</i></p></h5>
+                        <h5 class=" active-members-pointer text-warning">sevimli o`yinlar:<p class=" d-inline" style="color: white;">cs2, pubg</p></h5>
+                        <h5 class=" active-members-pointer text-warning">haftada o`yin soatlari: <p class=" d-inline" style="color: white;">9 soat</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Qo'shilgan sana: <p class=" d-inline" style="color: white;">18.09.2024</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Hozirgi jamoa: <p class=" d-inline" style="color: white;">Aut e40-b</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Manzil: <p class=" d-inline" style="color: white;">Buxoro</p></h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="col-12 col-sm-8 col-md-8 col-lg-6">
+
+                <div class="card mb-3 members-card-back active-members-pointer glow-box" style="max-width: 600px;">
+                  <div class="row g-0">
+                    <div class="col-md-4 ">
+                      <img src="./images/behruz-card.jpg" class="img-fluid rounded active-members-pointer" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body ">
+                        <h2 class="card-title active-members-pointer text-white">Behruz <i class="bi bi-person-lines-fill"></i></h2>
+                        <h5 class="active-members-pointer text-warning">
+                            Yosh: <p class=" d-inline" style="color: white;">19</p>
+                        </h5>
+                        <h5 class=" active-members-pointer text-warning">Taxallus:<p class=" d-inline" style="color: white;"><i>bexruzoydinov2</i></p></h5>
+                        <h5 class=" active-members-pointer text-warning">sevimli o`yinlar:<p class=" d-inline" style="color: white;">cs2, gta</p></h5>
+                        <h5 class=" active-members-pointer text-warning">haftada o`yin soatlari: <p class=" d-inline" style="color: white;">20 soat</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Qo'shilgan sana: <p class=" d-inline" style="color: white;">10.10.2024</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Hozirgi jamoa: <p class=" d-inline" style="color: white;">Aut e40-b</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Manzil: <p class=" d-inline" style="color: white;">Surxandaryo</p></h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              
+            </div>
+
+            <div class="row justify-content-center">
+              <div class="col-12 col-sm-8 col-md-8 col-lg-6">
+
+                <div class="card mb-3 members-card-back active-members-pointer glow-box" style="max-width: 600px;">
+                  <div class="row g-0">
+                    <div class="col-md-4 ">
+                      <img src="./images/hasan-card.jpg" class="img-fluid rounded active-members-pointer" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body ">
+                        <h2 class="card-title active-members-pointer text-white">Xasan <i class="bi bi-person-lines-fill"></i></h2>
+                        <h5 class="active-members-pointer text-warning">
+                            Yosh: <p class=" d-inline" style="color: white;">20</p>
+                        </h5>
+                        <h5 class=" active-members-pointer text-warning">Taxallus:<p class=" d-inline" style="color: white;"><i>nonamechick7</i></p></h5>
+                        <h5 class=" active-members-pointer text-warning">sevimli o`yinlar:<p class=" d-inline" style="color: white;">cs2</p></h5>
+                        <h5 class=" active-members-pointer text-warning">haftada o`yin soatlari: <p class=" d-inline" style="color: white;">8 soat</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Qo'shilgan sana: <p class=" d-inline" style="color: white;">14.09.2024</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Hozirgi jamoa: <p class=" d-inline" style="color: white;">Aut e40-b</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Manzil: <p class=" d-inline" style="color: white;">toshkent</p></h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="col-12 col-sm-8 col-md-8 col-lg-6">
+
+                <div class="card mb-3 members-card-back active-members-pointer glow-box" style="max-width: 600px;">
+                  <div class="row g-0">
+                    <div class="col-md-4 ">
+                      <img src="./images/abdurahmon-card.jpg" class="img-fluid rounded active-members-pointer" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body ">
+                        <h2 class="card-title active-members-pointer text-white">Abdurahmon <i class="bi bi-person-lines-fill"></i></h2>
+                        <h5 class="active-members-pointer text-warning">
+                          Yosh: <p class=" d-inline" style="color: white;">20</p>
+                        </h5>
+                        <h5 class=" active-members-pointer text-warning">Taxallus:<p class=" d-inline" style="color: white;"><i>cwd</i></p></h5>
+                        <h5 class=" active-members-pointer text-warning">sevimli o`yinlar:<p class=" d-inline" style="color: white;">cs2, dota 2</p></h5>
+                        <h5 class=" active-members-pointer text-warning">haftada o`yin soatlari: <p class=" d-inline" style="color: white;">15 soat</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Qo'shilgan sana:<p class=" d-inline" style="color: white;">12.10.2024</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Hozirgi jamoa: <p class=" d-inline" style="color: white;">Aut e40-b</p></h5>
+                        <h5 class=" active-members-pointer text-warning">Manzil: <p class=" d-inline" style="color: white;">Farg`ona</p></h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              
+            </div>
+
+        </div>
+    </section>
+
+    </div>
+  </div>
+
+
+  <!-- Pricing page -->
+<div id="pricing-page">
+  <!-- Video background -->
+  <video id="video-background2" autoplay loop muted>
+    <source src="./images/pricing-back-vedio.mp4" type="video/mp4">
+    Brauzeringiz video tegini qo'llab-quvvatlamaydi.
+  </video>
+
+
+
+        <!-- Pricing Plans Section -->
+  <div id="pricing-plans" class="text-light py-5">
+    <div class="container">
+      <h1 class="text-center mb-5">Xarid turini tanlang</h1>
+      <p class="text-center mb-4">
+        Ehtiyojlaringizni qondirish uchun moslashuvchan narxlash imkoniyatlari. Hech qanday yashirin to'lovlar yoki kutilmagan hodisalar yuq!
+      </p>
+
+      <div class="row justify-content-center">
+        <!-- Basic Plan -->
+        <div class="col-lg-4 col-md-6 col-sm-10 mb-4">
+          <div class="card shadow-lg border-0">
+            <div class="card-header bg-primary text-white text-center">
+              <h3>Asosiy</h3>
+            </div>
+            <div class="card-body text-center">
+              <h2 class="display-4">$19<span class="text-muted">/oyiga</span></h2>
+              <ul class="list-group list-group-flush mb-3">
+                <li class="list-group-item">1 foydalanuvchi</li>
+                <li class="list-group-item">5GB Xotira</li>
+                <li class="list-group-item">Elektron pochta yordami</li>
+                <li class="list-group-item">Community Access</li>
+              </ul>
+              <a href="payments/basic.uz.html" class="btn btn-primary btn-block">Boshlash</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pro Plan -->
+        <div class="col-lg-4 col-md-6 col-sm-10 mb-4">
+          <div class="card shadow-lg border-0">
+            <div class="card-header bg-success text-white text-center">
+              <h3>Pro</h3>
+            </div>
+            <div class="card-body text-center">
+              <h2 class="display-4">$49<span class="text-muted">/oyiga</span></h2>
+              <ul class="list-group list-group-flush mb-3">
+                <li class="list-group-item">1 foydalanuvchi</li>
+                <li class="list-group-item">50GB Xotira</li>
+                <li class="list-group-item">Prioritet elektron pochta yordami</li>
+                <li class="list-group-item">Eksklyuziv tarkibga kirish</li>
+              </ul>
+              <a href="payments/pro-uz.html" class="btn btn-success btn-block">Boshlash</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Premium Plan -->
+        <div class="col-lg-4 col-md-6 col-sm-10 mb-4">
+          <div class="card shadow-lg border-0">
+            <div class="card-header bg-danger text-white text-center">
+              <h3>Premium</h3>
+            </div>
+            <div class="card-body text-center">
+              <h2 class="display-4">$99<span class="text-muted">/oyiga</span></h2>
+              <ul class="list-group list-group-flush mb-3">
+                <li class="list-group-item">cheksiz foydalanuvchi</li>
+                <li class="list-group-item">cheksiz xotira</li>
+                <li class="list-group-item">24/7 Yordam</li>
+                <li class="list-group-item">Maxsus hisob menejeri</li>
+              </ul>
+              <a href="payments/premium-uz.html" class="btn btn-danger btn-block">Boshlash</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    </div>
+  </div>
+</div>
+<!-- Pricing -->
+  
+
+<!-- Contact Page -->
+<div id="contact-page" class="py-5">
+  <div class="container">
+    <h1 class="text-center mb-4 text-white">Bog`lanish</h1>
+    <p class="text-center mb-5 text-white">
+        Savollaringiz bormi yoki ko'proq bilmoqchimisiz? Sizdan eshitishni istardik!
+    </p>
+
+    <div class="row">
+      <!-- Contact Form -->
+      <div class="col-lg-6 mb-4 text-white">
+        <form id="contact-form" onsubmit="showThankYou2(event)">
+          <div class="mb-3">
+            <label for="name" class="form-label">To'liq ism</label>
+            <input type="text" class="form-control" id="name" placeholder="ismingizni kiriting" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email Manzil</label>
+            <input type="email" class="form-control" id="email" placeholder="email manzilni kiriting" required>
+          </div>
+          <div class="mb-3">
+            <label for="subject" class="form-label">mavzu</label>
+            <input type="text" class="form-control" id="subject" placeholder="mavzuni yozing" required>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">xabar</label>
+            <textarea class="form-control" id="message" rows="5" placeholder="xabaringizni shu yerga yozing" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">xabar yuborish</button>
+        </form>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-lg-6 text-white">
+        <h4>Bog'lanish uchun ma'lumot</h4>
+        <ul class="list-unstyled">
+          <li><i class="bi bi-envelope"></i> Email: anfieldarena@gmail.com</li>
+          <li><i class="bi bi-telephone"></i> Tel: +998 77 277 2772</li>
+          <li><i class="bi bi-geo-alt"></i> Manzil:Toshkent, jarqurgon kuchasi, 113 A</li>
+          <li><i class="bi bi-geo-alt"></i> manzil: chilonzor magnum supermarket, Toshkent</li>
+        </ul>
+
+        <h4 class="mt-4">Bizga qushiling</h4>
+        <div class="d-flex">
+          <a href="https://www.facebook.com/ajou.uz/?locale=ru_RU" target="_blank" class="btn btn-outline-primary me-2"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.instagram.com/ajou_uz/?hl=en" target="_blank" class="btn btn-outline-primary me-2"><i class="bi bi-twitter"></i></a>
+          <a href="https://www.instagram.com/ajou_uz/?hl=en" target="_blank" class="btn btn-outline-primary me-2"><i class="bi bi-instagram"></i></a>
+          <a href="https://t.me/s/ajou_uz" target="_blank" class="btn btn-outline-primary me-2"><i class="bi bi-telegram"></i></a>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="row justify-content-start">
+      <div class="col-12 col-sm-12 col-md-8 col-lg-8">
+        <!-- Google Map -->
+        <div class="mt-4">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47949.88466240073!2d69.2705637904675!3d41.31173965499199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae5f7e492a66c1%3A0x77427ccd87b4ed9!2sAjou%20University%20in%20Tashkent!5e0!3m2!1sru!2s!4v1733735809380!5m2!1sru!2s"
+            class="map-frame"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </div>
+    
+
+  </div>
+</div>
+<!--/Contact page-->
+
+<!--Footer-->
+<footer class="bg-dark text-light py-4">
+  <div class="container">
+    <div class="row">
+      <!-- About Section -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <h5>Biz haqimizda</h5>
+        <p>
+            Bizning o'yin klubimizga xush kelibsiz! Hamfikr geymerlar bilan qiziqarli va qiyinchiliklarni boshdan kechirish uchun bizga qo'shiling.
+        </p>
+        <p>
+          <a href="#about-us" class="text-light">Ko`proq</a>
+        </p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <h5>havolalar</h5>
+        <ul class="list-unstyled">
+          <li><a href="#home" class="text-light">uy</a></li>
+          <li><a href="#about-us" class="text-light">biz haqimizda</a></li>
+          <li><a href="#pricing-page" class="text-light">narxlar</a></li>
+          <li><a href="#contact" class="text-light">bog`lanish</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Information -->
+      <div class="col-lg-4 col-md-12 mb-4">
+        <h5>Contact</h5>
+        <p><i class="fas fa-map-marker-alt me-2"></i>Ajou Universiteti, Toshkent</p>
+        <p><i class="fas fa-envelope me-2"></i>www.anfield-arena.com</p>
+        <p><i class="fas fa-phone me-2"></i>+998 77 277 2772</p>
+        <!-- Social Media Links -->
+        <div class="social-icons">
+          <a href="#" class="text-light me-3"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="text-light me-3"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-light"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Footer -->
+    <div class="text-center mt-3">
+      <p class="mb-0">&copy; 2024 Anfield Arena. barcha huquqlar himoyalangan.</p>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
