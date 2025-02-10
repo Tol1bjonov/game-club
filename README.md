@@ -35,7 +35,7 @@ Follow these steps to set up the project locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_GITHUB_USERNAME/game-club.git
+git clone https://github.com/Tol1bjonov/game-club.git
 
 # Navigate into the project folder
 cd game-club
@@ -68,8 +68,8 @@ Want to contribute? Feel free to submit a pull request or open an issue. 🚀
 
 ## 📬 Contact
 For any inquiries, contact us at:
-📩 Email: your-email@example.com  
-📌 GitHub: [Your GitHub Profile](https://github.com/YOUR_GITHUB_USERNAME)
+📩 Email: yusufjontolibjonov3@gmail.com  
+📌 GitHub: [Your GitHub Profile](https://github.com/Tol1bjonov)
 
 ---
 
