@@ -69,7 +69,7 @@ Want to contribute? Feel free to submit a pull request or open an issue. 🚀
 ## 📬 Contact
 For any inquiries, contact us at:
 📩 Email: yusufjontolibjonov3@gmail.com  
-📌 GitHub: [Your GitHub Profile](https://github.com/Tol1bjonov)
+📌 GitHub:(https://github.com/Tol1bjonov)
 
 ---
 
